@@ -1,0 +1,731 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 04-Oct-13 2:10:51 PM
+
+BeginCmp
+TimeStamp = /524E3E5A;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3EF8;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F08;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F18;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F28;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F38;
+Reference = D6;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F48;
+Reference = D7;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F58;
+Reference = D8;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F68;
+Reference = D9;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F78;
+Reference = D10;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F88;
+Reference = D11;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F98;
+Reference = D12;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FA8;
+Reference = D13;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FB8;
+Reference = D14;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FC8;
+Reference = D15;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FD8;
+Reference = D16;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FE8;
+Reference = D17;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FF8;
+Reference = D18;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4008;
+Reference = D19;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4018;
+Reference = D20;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4028;
+Reference = D21;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4038;
+Reference = D22;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4048;
+Reference = D23;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4058;
+Reference = D24;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4078;
+Reference = D25;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4088;
+Reference = D26;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4098;
+Reference = D27;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40A8;
+Reference = D28;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40B8;
+Reference = D29;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40C8;
+Reference = D30;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40D8;
+Reference = D31;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40E8;
+Reference = D32;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40F8;
+Reference = D33;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4108;
+Reference = D34;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4118;
+Reference = D35;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4128;
+Reference = D36;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4138;
+Reference = D37;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4148;
+Reference = D38;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4158;
+Reference = D39;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4168;
+Reference = D40;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4178;
+Reference = D41;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4188;
+Reference = D42;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4198;
+Reference = D43;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41A8;
+Reference = D44;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41B8;
+Reference = D45;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41C8;
+Reference = D46;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41D8;
+Reference = D47;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41E8;
+Reference = D48;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41F8;
+Reference = D49;
+ValeurCmp = DIODE;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A365E;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E7C1A;
+Reference = R1;
+ValeurCmp = 4.7K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E7C0B;
+Reference = R2;
+ValeurCmp = 4.7K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E7BFC;
+Reference = R3;
+ValeurCmp = 4.7K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E7BED;
+Reference = R4;
+ValeurCmp = 4.7K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52496E08;
+Reference = SW1;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3EF2;
+Reference = SW2;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F02;
+Reference = SW3;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F12;
+Reference = SW4;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F22;
+Reference = SW5;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F32;
+Reference = SW6;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F42;
+Reference = SW7;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F52;
+Reference = SW8;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F62;
+Reference = SW9;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F72;
+Reference = SW10;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F82;
+Reference = SW11;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3F92;
+Reference = SW12;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FA2;
+Reference = SW13;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FB2;
+Reference = SW14;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FC2;
+Reference = SW15;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FD2;
+Reference = SW16;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FE2;
+Reference = SW17;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E3FF2;
+Reference = SW18;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4002;
+Reference = SW19;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4012;
+Reference = SW20;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4022;
+Reference = SW21;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4032;
+Reference = SW22;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4042;
+Reference = SW23;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4052;
+Reference = SW24;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4072;
+Reference = SW25;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4082;
+Reference = SW26;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4092;
+Reference = SW27;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40A2;
+Reference = SW28;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40B2;
+Reference = SW29;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40C2;
+Reference = SW30;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40D2;
+Reference = SW31;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40E2;
+Reference = SW32;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E40F2;
+Reference = SW33;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4102;
+Reference = SW34;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4112;
+Reference = SW35;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4122;
+Reference = SW36;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4132;
+Reference = SW37;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4142;
+Reference = SW38;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4152;
+Reference = SW39;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4162;
+Reference = SW40;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4172;
+Reference = SW41;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4182;
+Reference = SW42;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E4192;
+Reference = SW43;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41A2;
+Reference = SW44;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41B2;
+Reference = SW45;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41C2;
+Reference = SW46;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41D2;
+Reference = SW47;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41E2;
+Reference = SW48;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524E41F2;
+Reference = SW49;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A2BD9;
+Reference = U1;
+ValeurCmp = TCA8418;
+IdModule  = QFN24;
+EndCmp
+
+EndListe
