@@ -1,921 +1,988 @@
-(export (version D)
-  (design
-    (source C:\_Data\Git\Keyboard\KiCad\Keyboard\Keypad.sch)
-    (date "04-Oct-13 6:27:45 PM")
-    (tool "eeschema (2013-07-07 BZR 4022)-stable"))
-  (components
-    (comp (ref P1)
-      (value CONN_6)
-      (libsource (lib conn) (part CONN_6))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524A365E))
-    (comp (ref U1)
-      (value TCA8418)
-      (libsource (lib Keypad-cache) (part TCA8418))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524A2BD9))
-    (comp (ref SW1)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 52496E08))
-    (comp (ref R4)
-      (value 4.7K)
-      (libsource (lib device) (part R))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E7BED))
-    (comp (ref R3)
-      (value 4.7K)
-      (libsource (lib device) (part R))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E7BFC))
-    (comp (ref R2)
-      (value 4.7K)
-      (libsource (lib device) (part R))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E7C0B))
-    (comp (ref R1)
-      (value 4.7K)
-      (libsource (lib device) (part R))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E7C1A))
-    (comp (ref D1)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E91D2))
-    (comp (ref SW2)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9264))
-    (comp (ref D2)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E926A))
-    (comp (ref SW3)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9280))
-    (comp (ref D3)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9286))
-    (comp (ref SW4)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E928E))
-    (comp (ref D4)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9294))
-    (comp (ref SW6)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E929C))
-    (comp (ref D6)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92A2))
-    (comp (ref SW7)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92AA))
-    (comp (ref D7)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92B0))
-    (comp (ref SW8)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92B8))
-    (comp (ref D8)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92BE))
-    (comp (ref SW9)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92C6))
-    (comp (ref D9)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92CC))
-    (comp (ref D5)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92E1))
-    (comp (ref SW10)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92F0))
-    (comp (ref D10)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92F6))
-    (comp (ref SW11)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92FE))
-    (comp (ref D11)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9304))
-    (comp (ref SW12)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E930C))
-    (comp (ref D12)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9312))
-    (comp (ref SW13)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E931A))
-    (comp (ref D13)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9320))
-    (comp (ref SW14)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9328))
-    (comp (ref D14)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E932E))
-    (comp (ref SW16)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9336))
-    (comp (ref D16)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E933C))
-    (comp (ref SW17)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9344))
-    (comp (ref D17)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E934A))
-    (comp (ref SW18)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9352))
-    (comp (ref D18)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9358))
-    (comp (ref D19)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9366))
-    (comp (ref SW15)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9375))
-    (comp (ref D15)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E937B))
-    (comp (ref SW19)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9383))
-    (comp (ref SW20)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E938A))
-    (comp (ref D20)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9390))
-    (comp (ref SW21)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9398))
-    (comp (ref D21)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E939E))
-    (comp (ref SW22)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93A6))
-    (comp (ref D22)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93AC))
-    (comp (ref SW23)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93B4))
-    (comp (ref D23)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93BA))
-    (comp (ref D24)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93C8))
-    (comp (ref SW25)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93D0))
-    (comp (ref D25)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93D6))
-    (comp (ref SW26)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93DE))
-    (comp (ref D26)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93E4))
-    (comp (ref SW27)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93EC))
-    (comp (ref D27)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E93F2))
-    (comp (ref D28)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9400))
-    (comp (ref SW24)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9408))
-    (comp (ref SW28)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E941D))
-    (comp (ref SW29)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9424))
-    (comp (ref D29)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E942A))
-    (comp (ref SW30)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9432))
-    (comp (ref D30)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9438))
-    (comp (ref SW31)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9440))
-    (comp (ref D31)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9446))
-    (comp (ref SW32)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E944E))
-    (comp (ref D32)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9454))
-    (comp (ref D33)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9462))
-    (comp (ref SW35)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E946A))
-    (comp (ref D35)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9470))
-    (comp (ref SW36)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9478))
-    (comp (ref D36)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E947E))
-    (comp (ref SW37)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9486))
-    (comp (ref D37)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E948C))
-    (comp (ref D38)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E949A))
-    (comp (ref SW33)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94A2))
-    (comp (ref SW34)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94A9))
-    (comp (ref D34)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94AF))
-    (comp (ref SW38)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94B7))
-    (comp (ref SW39)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94BE))
-    (comp (ref D39)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94C4))
-    (comp (ref SW40)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94D2))
-    (comp (ref D40)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94D8))
-    (comp (ref SW41)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94E0))
-    (comp (ref D41)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94E6))
-    (comp (ref SW42)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94EE))
-    (comp (ref D42)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94F4))
-    (comp (ref SW43)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E94FC))
-    (comp (ref D43)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9502))
-    (comp (ref SW45)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E950A))
-    (comp (ref D45)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9510))
-    (comp (ref SW46)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9518))
-    (comp (ref D46)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E951E))
-    (comp (ref SW47)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9526))
-    (comp (ref D47)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E952C))
-    (comp (ref SW48)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9534))
-    (comp (ref D48)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E953A))
-    (comp (ref SW44)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9549))
-    (comp (ref D44)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E954F))
-    (comp (ref SW49)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E955E))
-    (comp (ref D49)
-      (value DIODE)
-      (libsource (lib device) (part DIODE))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E9564))
-    (comp (ref SW5)
-      (value MX)
-      (libsource (lib device) (part SW_PUSH_SMALL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 524E92DB)))
-  (libparts
-    (libpart (lib device) (part DIODE)
-      (description "Diode simple")
-      (footprints
-        (fp D?)
-        (fp S*))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) DIODE)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistance)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part SW_PUSH_SMALL)
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) SW_PUSH_SMALL)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib conn) (part CONN_6)
-      (description "ymbole general de connecteur")
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_6))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive))
-        (pin (num 5) (name 5) (type passive))
-        (pin (num 6) (name 6) (type passive))))
-    (libpart (lib Keypad-cache) (part TCA8418)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) TCA8418))
-      (pins
-        (pin (num 1) (name ROW7) (type BiDi))
-        (pin (num 2) (name ROW6) (type BiDi))
-        (pin (num 3) (name ROW5) (type BiDi))
-        (pin (num 4) (name ROW4) (type BiDi))
-        (pin (num 5) (name ROW3) (type BiDi))
-        (pin (num 6) (name ROW2) (type BiDi))
-        (pin (num 7) (name ROW1) (type BiDi))
-        (pin (num 8) (name ROW0) (type BiDi))
-        (pin (num 9) (name COL0) (type BiDi))
-        (pin (num 10) (name COL1) (type BiDi))
-        (pin (num 11) (name COL2) (type BiDi))
-        (pin (num 12) (name COL3) (type BiDi))
-        (pin (num 13) (name COL4) (type BiDi))
-        (pin (num 14) (name COL5) (type BiDi))
-        (pin (num 15) (name COL6) (type BiDi))
-        (pin (num 16) (name COL7) (type BiDi))
-        (pin (num 17) (name COL8) (type BiDi))
-        (pin (num 18) (name COL9) (type BiDi))
-        (pin (num 19) (name GND) (type power_in))
-        (pin (num 20) (name /RESET) (type input))
-        (pin (num 21) (name VCC) (type power_in))
-        (pin (num 22) (name SDA) (type BiDi))
-        (pin (num 23) (name SCL) (type BiDi))
-        (pin (num 24) (name /INT) (type input)))))
-  (libraries
-    (library (logical device)
-      (uri C:\Apps\KiCad\share\library\device.lib))
-    (library (logical conn)
-      (uri C:\Apps\KiCad\share\library\conn.lib))
-    (library (logical Keypad-cache)
-      (uri C:\_Data\Git\Keyboard\KiCad\Keyboard\Keypad-cache.lib)))
-  (nets
-    (net (code 1) (name "")
-      (node (ref SW43) (pin 1))
-      (node (ref D43) (pin 1)))
-    (net (code 2) (name "")
-      (node (ref D42) (pin 1))
-      (node (ref SW42) (pin 1)))
-    (net (code 3) (name "")
-      (node (ref D45) (pin 1))
-      (node (ref SW45) (pin 1)))
-    (net (code 4) (name "")
-      (node (ref SW39) (pin 1))
-      (node (ref D39) (pin 1)))
-    (net (code 5) (name /Col7)
-      (node (ref SW37) (pin 2))
-      (node (ref SW39) (pin 2))
-      (node (ref SW36) (pin 2))
-      (node (ref SW38) (pin 2))
-      (node (ref SW35) (pin 2))
-      (node (ref U1) (pin 16)))
-    (net (code 6) (name "")
-      (node (ref SW40) (pin 1))
-      (node (ref D40) (pin 1)))
-    (net (code 7) (name "")
-      (node (ref SW41) (pin 1))
-      (node (ref D41) (pin 1)))
-    (net (code 8) (name /Col8)
-      (node (ref U1) (pin 17))
-      (node (ref SW42) (pin 2))
-      (node (ref SW40) (pin 2))
-      (node (ref SW41) (pin 2))
-      (node (ref SW44) (pin 2))
-      (node (ref SW43) (pin 2)))
-    (net (code 9) (name "")
-      (node (ref SW44) (pin 1))
-      (node (ref D44) (pin 1)))
-    (net (code 10) (name "")
-      (node (ref SW49) (pin 1))
-      (node (ref D49) (pin 1)))
-    (net (code 11) (name "")
-      (node (ref SW46) (pin 1))
-      (node (ref D46) (pin 1)))
-    (net (code 12) (name "")
-      (node (ref D47) (pin 1))
-      (node (ref SW47) (pin 1)))
-    (net (code 13) (name "")
-      (node (ref D48) (pin 1))
-      (node (ref SW48) (pin 1)))
-    (net (code 14) (name "")
-      (node (ref D31) (pin 1))
-      (node (ref SW31) (pin 1)))
-    (net (code 15) (name "")
-      (node (ref SW32) (pin 1))
-      (node (ref D32) (pin 1)))
-    (net (code 16) (name "")
-      (node (ref D33) (pin 1))
-      (node (ref SW33) (pin 1)))
-    (net (code 17) (name /Col6)
-      (node (ref SW30) (pin 2))
-      (node (ref SW34) (pin 2))
-      (node (ref SW33) (pin 2))
-      (node (ref U1) (pin 15))
-      (node (ref SW32) (pin 2))
-      (node (ref SW31) (pin 2)))
-    (net (code 18) (name "")
-      (node (ref SW35) (pin 1))
-      (node (ref D35) (pin 1)))
-    (net (code 19) (name "")
-      (node (ref D24) (pin 1))
-      (node (ref SW24) (pin 1)))
-    (net (code 20) (name "")
-      (node (ref SW28) (pin 1))
-      (node (ref D28) (pin 1)))
-    (net (code 21) (name "")
-      (node (ref D29) (pin 1))
-      (node (ref SW29) (pin 1)))
-    (net (code 22) (name "")
-      (node (ref D30) (pin 1))
-      (node (ref SW30) (pin 1)))
-    (net (code 23) (name "")
-      (node (ref D38) (pin 1))
-      (node (ref SW38) (pin 1)))
-    (net (code 24) (name "")
-      (node (ref SW34) (pin 1))
-      (node (ref D34) (pin 1)))
-    (net (code 25) (name "")
-      (node (ref D37) (pin 1))
-      (node (ref SW37) (pin 1)))
-    (net (code 26) (name "")
-      (node (ref D36) (pin 1))
-      (node (ref SW36) (pin 1)))
-    (net (code 27) (name GND)
-      (node (ref P1) (pin 5))
-      (node (ref U1) (pin 19)))
-    (net (code 28) (name /Col9)
-      (node (ref SW45) (pin 2))
-      (node (ref U1) (pin 18))
-      (node (ref SW49) (pin 2))
-      (node (ref SW46) (pin 2))
-      (node (ref SW47) (pin 2))
-      (node (ref SW48) (pin 2)))
-    (net (code 29) (name VCC)
-      (node (ref U1) (pin 21))
-      (node (ref R4) (pin 1))
-      (node (ref R1) (pin 1))
-      (node (ref R2) (pin 1))
-      (node (ref R3) (pin 1))
-      (node (ref P1) (pin 6)))
-    (net (code 30) (name "")
-      (node (ref SW2) (pin 1))
-      (node (ref D2) (pin 1)))
-    (net (code 31) (name "")
-      (node (ref SW3) (pin 1))
-      (node (ref D3) (pin 1)))
-    (net (code 32) (name "")
-      (node (ref D4) (pin 1))
-      (node (ref SW4) (pin 1)))
-    (net (code 33) (name /int)
-      (node (ref U1) (pin 24))
-      (node (ref R3) (pin 2))
-      (node (ref P1) (pin 2)))
-    (net (code 34) (name /sda)
-      (node (ref R1) (pin 2))
-      (node (ref P1) (pin 4))
-      (node (ref U1) (pin 22)))
-    (net (code 35) (name /scl)
-      (node (ref P1) (pin 3))
-      (node (ref U1) (pin 23))
-      (node (ref R2) (pin 2)))
-    (net (code 36) (name /res)
-      (node (ref R4) (pin 2))
-      (node (ref U1) (pin 20))
-      (node (ref P1) (pin 1)))
-    (net (code 37) (name /Col0)
-      (node (ref SW2) (pin 2))
-      (node (ref SW1) (pin 2))
-      (node (ref U1) (pin 11))
-      (node (ref SW3) (pin 2))
-      (node (ref SW4) (pin 2))
-      (node (ref SW5) (pin 2)))
-    (net (code 38) (name "")
-      (node (ref D1) (pin 1))
-      (node (ref SW1) (pin 1)))
-    (net (code 39) (name "")
-      (node (ref U1) (pin 3)))
-    (net (code 40) (name "")
-      (node (ref U1) (pin 2)))
-    (net (code 41) (name "")
-      (node (ref U1) (pin 1)))
-    (net (code 42) (name "")
-      (node (ref SW20) (pin 1))
-      (node (ref D20) (pin 1)))
-    (net (code 43) (name "")
-      (node (ref D19) (pin 1))
-      (node (ref SW19) (pin 1)))
-    (net (code 44) (name "")
-      (node (ref SW21) (pin 1))
-      (node (ref D21) (pin 1)))
-    (net (code 45) (name /Col4)
-      (node (ref SW24) (pin 2))
-      (node (ref SW22) (pin 2))
-      (node (ref SW23) (pin 2))
-      (node (ref SW21) (pin 2))
-      (node (ref U1) (pin 13)))
-    (net (code 46) (name "")
-      (node (ref D22) (pin 1))
-      (node (ref SW22) (pin 1)))
-    (net (code 47) (name /Col3)
-      (node (ref U1) (pin 12))
-      (node (ref SW18) (pin 2))
-      (node (ref SW19) (pin 2))
-      (node (ref SW20) (pin 2))
-      (node (ref SW17) (pin 2))
-      (node (ref SW16) (pin 2)))
-    (net (code 48) (name "")
-      (node (ref SW18) (pin 1))
-      (node (ref D18) (pin 1)))
-    (net (code 49) (name "")
-      (node (ref SW15) (pin 1))
-      (node (ref D15) (pin 1)))
-    (net (code 50) (name "")
-      (node (ref D25) (pin 1))
-      (node (ref SW25) (pin 1)))
-    (net (code 51) (name "")
-      (node (ref D26) (pin 1))
-      (node (ref SW26) (pin 1)))
-    (net (code 52) (name /Col5)
-      (node (ref SW25) (pin 2))
-      (node (ref U1) (pin 14))
-      (node (ref SW27) (pin 2))
-      (node (ref SW26) (pin 2))
-      (node (ref SW29) (pin 2))
-      (node (ref SW28) (pin 2)))
-    (net (code 53) (name "")
-      (node (ref SW27) (pin 1))
-      (node (ref D27) (pin 1)))
-    (net (code 54) (name "")
-      (node (ref D23) (pin 1))
-      (node (ref SW23) (pin 1)))
-    (net (code 55) (name "")
-      (node (ref D9) (pin 1))
-      (node (ref SW9) (pin 1)))
-    (net (code 56) (name "")
-      (node (ref D5) (pin 1))
-      (node (ref SW5) (pin 1)))
-    (net (code 57) (name "")
-      (node (ref D10) (pin 1))
-      (node (ref SW10) (pin 1)))
-    (net (code 58) (name /Row4)
-      (node (ref D34) (pin 2))
-      (node (ref D10) (pin 2))
-      (node (ref D29) (pin 2))
-      (node (ref D39) (pin 2))
-      (node (ref D20) (pin 2))
-      (node (ref D15) (pin 2))
-      (node (ref D44) (pin 2))
-      (node (ref U1) (pin 4))
-      (node (ref D49) (pin 2))
-      (node (ref D5) (pin 2)))
-    (net (code 59) (name "")
-      (node (ref SW11) (pin 1))
-      (node (ref D11) (pin 1)))
-    (net (code 60) (name "")
-      (node (ref D7) (pin 1))
-      (node (ref SW7) (pin 1)))
-    (net (code 61) (name "")
-      (node (ref D6) (pin 1))
-      (node (ref SW6) (pin 1)))
-    (net (code 62) (name /Col1)
-      (node (ref SW8) (pin 2))
-      (node (ref SW7) (pin 2))
-      (node (ref U1) (pin 10))
-      (node (ref SW9) (pin 2))
-      (node (ref SW10) (pin 2))
-      (node (ref SW6) (pin 2)))
-    (net (code 63) (name "")
-      (node (ref SW8) (pin 1))
-      (node (ref D8) (pin 1)))
-    (net (code 64) (name /Col2)
-      (node (ref SW14) (pin 2))
-      (node (ref SW11) (pin 2))
-      (node (ref SW15) (pin 2))
-      (node (ref U1) (pin 9))
-      (node (ref SW12) (pin 2))
-      (node (ref SW13) (pin 2)))
-    (net (code 65) (name "")
-      (node (ref D14) (pin 1))
-      (node (ref SW14) (pin 1)))
-    (net (code 66) (name /Row3)
-      (node (ref D9) (pin 2))
-      (node (ref D24) (pin 2))
-      (node (ref D28) (pin 2))
-      (node (ref D38) (pin 2))
-      (node (ref D14) (pin 2))
-      (node (ref D4) (pin 2))
-      (node (ref U1) (pin 5))
-      (node (ref D33) (pin 2))
-      (node (ref D43) (pin 2))
-      (node (ref D48) (pin 2))
-      (node (ref D19) (pin 2)))
-    (net (code 67) (name "")
-      (node (ref D16) (pin 1))
-      (node (ref SW16) (pin 1)))
-    (net (code 68) (name "")
-      (node (ref D17) (pin 1))
-      (node (ref SW17) (pin 1)))
-    (net (code 69) (name "")
-      (node (ref D13) (pin 1))
-      (node (ref SW13) (pin 1)))
-    (net (code 70) (name /Row2)
-      (node (ref D32) (pin 2))
-      (node (ref D47) (pin 2))
-      (node (ref D37) (pin 2))
-      (node (ref D13) (pin 2))
-      (node (ref D8) (pin 2))
-      (node (ref D18) (pin 2))
-      (node (ref D3) (pin 2))
-      (node (ref D27) (pin 2))
-      (node (ref U1) (pin 7))
-      (node (ref D42) (pin 2))
-      (node (ref D23) (pin 2)))
-    (net (code 71) (name "")
-      (node (ref D12) (pin 1))
-      (node (ref SW12) (pin 1)))
-    (net (code 72) (name /Row1)
-      (node (ref D17) (pin 2))
-      (node (ref D22) (pin 2))
-      (node (ref D41) (pin 2))
-      (node (ref D2) (pin 2))
-      (node (ref D31) (pin 2))
-      (node (ref D12) (pin 2))
-      (node (ref U1) (pin 8))
-      (node (ref D46) (pin 2))
-      (node (ref D36) (pin 2))
-      (node (ref D26) (pin 2))
-      (node (ref D7) (pin 2)))
-    (net (code 73) (name /Row0)
-      (node (ref D35) (pin 2))
-      (node (ref D1) (pin 2))
-      (node (ref U1) (pin 6))
-      (node (ref D11) (pin 2))
-      (node (ref D30) (pin 2))
-      (node (ref D40) (pin 2))
-      (node (ref D6) (pin 2))
-      (node (ref D21) (pin 2))
-      (node (ref D16) (pin 2))
-      (node (ref D45) (pin 2))
-      (node (ref D25) (pin 2)))))
+# EESchema Netlist Version 1.1 created  25-Oct-13 4:55:51 PM
+(
+ ( /5251EBCD $noname  P1 KBD_6 {Lib=KBD_6}
+  (    1 //RESET )
+  (    2 //INT )
+  (    3 /SCL )
+  (    4 /SDA )
+  (    5 GND )
+  (    6 VCC )
+ )
+ ( /5251E93A $noname  R3 4K7 {Lib=R}
+  (    1 VCC )
+  (    2 /SCL )
+ )
+ ( /5251E939 $noname  R4 4K7 {Lib=R}
+  (    1 VCC )
+  (    2 /SDA )
+ )
+ ( /5251E92E $noname  R2 4K7 {Lib=R}
+  (    1 VCC )
+  (    2 //INT )
+ )
+ ( /5251E8DB $noname  R1 4K7 {Lib=R}
+  (    1 VCC )
+  (    2 //RESET )
+ )
+ ( /5251E672 $noname  SW40 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000026 )
+  (    2 /Col8 )
+ )
+ ( /5251E671 $noname  D40 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000026 )
+ )
+ ( /5251E670 $noname  D41 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000027 )
+ )
+ ( /5251E66F $noname  SW41 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000027 )
+  (    2 /Col8 )
+ )
+ ( /5251E66E $noname  SW43 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000023 )
+  (    2 /Col8 )
+ )
+ ( /5251E66D $noname  D43 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000023 )
+ )
+ ( /5251E66C $noname  D42 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000021 )
+ )
+ ( /5251E66B $noname  SW42 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000021 )
+  (    2 /Col8 )
+ )
+ ( /5251E66A $noname  D44 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000019 )
+ )
+ ( /5251E669 $noname  SW44 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000019 )
+  (    2 /Col8 )
+ )
+ ( /5251E668 $noname  SW49 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000024 )
+  (    2 /Col9 )
+ )
+ ( /5251E667 $noname  D49 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000024 )
+ )
+ ( /5251E666 $noname  SW47 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000025 )
+  (    2 /Col9 )
+ )
+ ( /5251E665 $noname  D47 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000025 )
+ )
+ ( /5251E664 $noname  D48 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000035 )
+ )
+ ( /5251E663 $noname  SW48 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000035 )
+  (    2 /Col9 )
+ )
+ ( /5251E662 $noname  SW46 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000034 )
+  (    2 /Col9 )
+ )
+ ( /5251E661 $noname  D46 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000034 )
+ )
+ ( /5251E660 $noname  D45 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000033 )
+ )
+ ( /5251E65F $noname  SW45 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000033 )
+  (    2 /Col9 )
+ )
+ ( /5251E65E $noname  SW21 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000032 )
+  (    2 /Col4 )
+ )
+ ( /5251E65D $noname  D21 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000032 )
+ )
+ ( /5251E65C $noname  D22 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000028 )
+ )
+ ( /5251E65B $noname  SW22 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000028 )
+  (    2 /Col4 )
+ )
+ ( /5251E65A $noname  SW24 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000029 )
+  (    2 /Col4 )
+ )
+ ( /5251E659 $noname  D24 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000029 )
+ )
+ ( /5251E658 $noname  D23 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000030 )
+ )
+ ( /5251E657 $noname  SW23 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000030 )
+  (    2 /Col4 )
+ )
+ ( /5251E654 $noname  SW29 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000031 )
+  (    2 /Col5 )
+ )
+ ( /5251E653 $noname  D29 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000031 )
+ )
+ ( /5251E652 $noname  SW27 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000006 )
+  (    2 /Col5 )
+ )
+ ( /5251E651 $noname  D27 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000006 )
+ )
+ ( /5251E650 $noname  D28 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000007 )
+ )
+ ( /5251E64F $noname  SW28 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000007 )
+  (    2 /Col5 )
+ )
+ ( /5251E64E $noname  SW26 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000008 )
+  (    2 /Col5 )
+ )
+ ( /5251E64D $noname  D26 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000008 )
+ )
+ ( /5251E64C $noname  D25 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000009 )
+ )
+ ( /5251E64B $noname  SW25 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000009 )
+  (    2 /Col5 )
+ )
+ ( /5251E64A $noname  SW35 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000002 )
+  (    2 /Col7 )
+ )
+ ( /5251E649 $noname  D35 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000002 )
+ )
+ ( /5251E648 $noname  D36 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000004 )
+ )
+ ( /5251E647 $noname  SW36 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000004 )
+  (    2 /Col7 )
+ )
+ ( /5251E646 $noname  SW38 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000001 )
+  (    2 /Col7 )
+ )
+ ( /5251E645 $noname  D38 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000001 )
+ )
+ ( /5251E644 $noname  D37 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000005 )
+ )
+ ( /5251E643 $noname  SW37 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000005 )
+  (    2 /Col7 )
+ )
+ ( /5251E642 $noname  D39 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000014 )
+ )
+ ( /5251E641 $noname  SW39 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000014 )
+  (    2 /Col7 )
+ )
+ ( /5251E640 $noname  SW34 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000015 )
+  (    2 /Col6 )
+ )
+ ( /5251E63F $noname  D34 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000015 )
+ )
+ ( /5251E63E $noname  SW32 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000016 )
+  (    2 /Col6 )
+ )
+ ( /5251E63D $noname  D32 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000016 )
+ )
+ ( /5251E63C $noname  D33 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000017 )
+ )
+ ( /5251E63B $noname  SW33 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000017 )
+  (    2 /Col6 )
+ )
+ ( /5251E63A $noname  SW31 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000018 )
+  (    2 /Col6 )
+ )
+ ( /5251E639 $noname  D31 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000018 )
+ )
+ ( /5251E638 $noname  D30 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000010 )
+ )
+ ( /5251E637 $noname  SW30 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000010 )
+  (    2 /Col6 )
+ )
+ ( /5251E636 $noname  SW11 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000011 )
+  (    2 /Col2 )
+ )
+ ( /5251E635 $noname  D11 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000011 )
+ )
+ ( /5251E634 $noname  D12 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000012 )
+ )
+ ( /5251E633 $noname  SW12 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000012 )
+  (    2 /Col2 )
+ )
+ ( /5251E632 $noname  SW14 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000013 )
+  (    2 /Col2 )
+ )
+ ( /5251E631 $noname  D14 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000013 )
+ )
+ ( /5251E630 $noname  D13 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000053 )
+ )
+ ( /5251E62F $noname  SW13 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000053 )
+  (    2 /Col2 )
+ )
+ ( /5251E62E $noname  D15 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000054 )
+ )
+ ( /5251E62D $noname  SW15 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000054 )
+  (    2 /Col2 )
+ )
+ ( /5251E62C $noname  SW20 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000056 )
+  (    2 /Col3 )
+ )
+ ( /5251E62B $noname  D20 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000056 )
+ )
+ ( /5251E62A $noname  SW18 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000057 )
+  (    2 /Col3 )
+ )
+ ( /5251E629 $noname  D18 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000057 )
+ )
+ ( /5251E628 $noname  D19 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000048 )
+ )
+ ( /5251E627 $noname  SW19 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000048 )
+  (    2 /Col3 )
+ )
+ ( /5251E626 $noname  SW17 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000049 )
+  (    2 /Col3 )
+ )
+ ( /5251E625 $noname  D17 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000049 )
+ )
+ ( /5251E624 $noname  D16 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000050 )
+ )
+ ( /5251E623 $noname  SW16 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000050 )
+  (    2 /Col3 )
+ )
+ ( /5251E61F $noname  SW6 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000051 )
+  (    2 /Col1 )
+ )
+ ( /5251E61E $noname  D6 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000051 )
+ )
+ ( /5251E61D $noname  D7 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000067 )
+ )
+ ( /5251E61C $noname  SW7 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000067 )
+  (    2 /Col1 )
+ )
+ ( /5251E61B $noname  SW9 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000066 )
+  (    2 /Col1 )
+ )
+ ( /5251E61A $noname  D9 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000066 )
+ )
+ ( /5251E619 $noname  D8 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000065 )
+ )
+ ( /5251E618 $noname  SW8 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000065 )
+  (    2 /Col1 )
+ )
+ ( /5251E617 $noname  D10 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000063 )
+ )
+ ( /5251E616 $noname  SW10 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000063 )
+  (    2 /Col1 )
+ )
+ ( /5251E5FF $noname  SW5 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000060 )
+  (    2 /Col0 )
+ )
+ ( /5251E5FE $noname  D5 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000060 )
+ )
+ ( /5251E5F7 $noname  SW3 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000059 )
+  (    2 /Col0 )
+ )
+ ( /5251E5F6 $noname  D3 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000059 )
+ )
+ ( /5251E5F5 $noname  D4 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000058 )
+ )
+ ( /5251E5F4 $noname  SW4 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000058 )
+  (    2 /Col0 )
+ )
+ ( /5251E5E1 $noname  SW2 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000062 )
+  (    2 /Col0 )
+ )
+ ( /5251E5E0 $noname  D2 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000062 )
+ )
+ ( /5251E450 $noname  D1 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000039 )
+ )
+ ( /524A2BD9 $noname  U1 TCA8418 {Lib=TCA8418}
+  (    1 /Row4 )
+  (    2 /Row3 )
+  (    3 /Row2 )
+  (    4 /Row1 )
+  (    5 /Row0 )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 /Col9 )
+  (   10 /Col8 )
+  (   11 /Col7 )
+  (   12 /Col6 )
+  (   13 /Col5 )
+  (   14 /Col4 )
+  (   15 /Col3 )
+  (   16 /Col2 )
+  (   17 /Col1 )
+  (   18 /Col0 )
+  (   19 GND )
+  (   20 //RESET )
+  (   21 VCC )
+  (   22 /SDA )
+  (   23 /SCL )
+  (   24 //INT )
+ )
+ ( /52496E08 $noname  SW1 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000039 )
+  (    2 /Col0 )
+ )
+ ( /526A1010 $noname  C1 0.1u {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D40
+ D?
+ S*
+$endlist
+$component D41
+ D?
+ S*
+$endlist
+$component D43
+ D?
+ S*
+$endlist
+$component D42
+ D?
+ S*
+$endlist
+$component D44
+ D?
+ S*
+$endlist
+$component D49
+ D?
+ S*
+$endlist
+$component D47
+ D?
+ S*
+$endlist
+$component D48
+ D?
+ S*
+$endlist
+$component D46
+ D?
+ S*
+$endlist
+$component D45
+ D?
+ S*
+$endlist
+$component D21
+ D?
+ S*
+$endlist
+$component D22
+ D?
+ S*
+$endlist
+$component D24
+ D?
+ S*
+$endlist
+$component D23
+ D?
+ S*
+$endlist
+$component D29
+ D?
+ S*
+$endlist
+$component D27
+ D?
+ S*
+$endlist
+$component D28
+ D?
+ S*
+$endlist
+$component D26
+ D?
+ S*
+$endlist
+$component D25
+ D?
+ S*
+$endlist
+$component D35
+ D?
+ S*
+$endlist
+$component D36
+ D?
+ S*
+$endlist
+$component D38
+ D?
+ S*
+$endlist
+$component D37
+ D?
+ S*
+$endlist
+$component D39
+ D?
+ S*
+$endlist
+$component D34
+ D?
+ S*
+$endlist
+$component D32
+ D?
+ S*
+$endlist
+$component D33
+ D?
+ S*
+$endlist
+$component D31
+ D?
+ S*
+$endlist
+$component D30
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component D12
+ D?
+ S*
+$endlist
+$component D14
+ D?
+ S*
+$endlist
+$component D13
+ D?
+ S*
+$endlist
+$component D15
+ D?
+ S*
+$endlist
+$component D20
+ D?
+ S*
+$endlist
+$component D18
+ D?
+ S*
+$endlist
+$component D19
+ D?
+ S*
+$endlist
+$component D17
+ D?
+ S*
+$endlist
+$component D16
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ SW38 1
+ D38 2
+Net 2 "" ""
+ SW35 1
+ D35 2
+Net 3 "/Row4" "Row4"
+ D6 1
+ D1 1
+ D30 1
+ D11 1
+ D25 1
+ U1 1
+ D21 1
+ D40 1
+ D45 1
+ D35 1
+ D16 1
+Net 4 "" ""
+ D36 2
+ SW36 1
+Net 5 "" ""
+ SW37 1
+ D37 2
+Net 6 "" ""
+ D27 2
+ SW27 1
+Net 7 "" ""
+ D28 2
+ SW28 1
+Net 8 "" ""
+ D26 2
+ SW26 1
+Net 9 "" ""
+ SW25 1
+ D25 2
+Net 10 "" ""
+ SW30 1
+ D30 2
+Net 11 "" ""
+ SW11 1
+ D11 2
+Net 12 "" ""
+ D12 2
+ SW12 1
+Net 13 "" ""
+ D14 2
+ SW14 1
+Net 14 "" ""
+ D39 2
+ SW39 1
+Net 15 "" ""
+ SW34 1
+ D34 2
+Net 16 "" ""
+ SW32 1
+ D32 2
+Net 17 "" ""
+ SW33 1
+ D33 2
+Net 18 "" ""
+ SW31 1
+ D31 2
+Net 19 "" ""
+ D44 2
+ SW44 1
+Net 20 "/Row1" "Row1"
+ D9 1
+ D14 1
+ D4 1
+ D19 1
+ D28 1
+ D48 1
+ D38 1
+ U1 4
+ D24 1
+ D43 1
+ D33 1
+Net 21 "" ""
+ D42 2
+ SW42 1
+Net 22 "/Row0" "Row0"
+ D15 1
+ D20 1
+ D5 1
+ U1 5
+ D10 1
+ D44 1
+ D49 1
+ D29 1
+ D34 1
+ D39 1
+Net 23 "" ""
+ D43 2
+ SW43 1
+Net 24 "" ""
+ D49 2
+ SW49 1
+Net 25 "" ""
+ D47 2
+ SW47 1
+Net 26 "" ""
+ SW40 1
+ D40 2
+Net 27 "" ""
+ SW41 1
+ D41 2
+Net 28 "" ""
+ D22 2
+ SW22 1
+Net 29 "" ""
+ SW24 1
+ D24 2
+Net 30 "" ""
+ SW23 1
+ D23 2
+Net 31 "" ""
+ D29 2
+ SW29 1
+Net 32 "" ""
+ D21 2
+ SW21 1
+Net 33 "" ""
+ SW45 1
+ D45 2
+Net 34 "" ""
+ D46 2
+ SW46 1
+Net 35 "" ""
+ SW48 1
+ D48 2
+Net 36 "/Col4" "Col4"
+ SW23 2
+ SW22 2
+ U1 14
+ SW24 2
+ SW21 2
+Net 37 "/Col3" "Col3"
+ SW20 2
+ SW18 2
+ U1 15
+ SW16 2
+ SW17 2
+ SW19 2
+Net 38 "/Col2" "Col2"
+ SW12 2
+ U1 16
+ SW14 2
+ SW11 2
+ SW13 2
+ SW15 2
+Net 39 "" ""
+ SW1 1
+ D1 2
+Net 40 "/Col5" "Col5"
+ SW28 2
+ SW29 2
+ SW25 2
+ U1 13
+ SW27 2
+ SW26 2
+Net 41 "/Col6" "Col6"
+ U1 12
+ SW30 2
+ SW34 2
+ SW32 2
+ SW33 2
+ SW31 2
+Net 42 "/Col7" "Col7"
+ SW39 2
+ SW37 2
+ SW38 2
+ SW36 2
+ U1 11
+ SW35 2
+Net 43 "/Col8" "Col8"
+ U1 10
+ SW42 2
+ SW41 2
+ SW44 2
+ SW43 2
+ SW40 2
+Net 44 "/Col9" "Col9"
+ SW45 2
+ SW46 2
+ U1 9
+ SW48 2
+ SW49 2
+ SW47 2
+Net 48 "" ""
+ SW19 1
+ D19 2
+Net 49 "" ""
+ D17 2
+ SW17 1
+Net 50 "" ""
+ SW16 1
+ D16 2
+Net 51 "" ""
+ SW6 1
+ D6 2
+Net 52 "/Row2" "Row2"
+ D27 1
+ U1 3
+ D13 1
+ D18 1
+ D3 1
+ D8 1
+ D37 1
+ D47 1
+ D42 1
+ D23 1
+ D32 1
+Net 53 "" ""
+ SW13 1
+ D13 2
+Net 54 "" ""
+ SW15 1
+ D15 2
+Net 55 "/Row3" "Row3"
+ D12 1
+ D26 1
+ D31 1
+ D46 1
+ D2 1
+ D17 1
+ U1 2
+ D22 1
+ D41 1
+ D7 1
+ D36 1
+Net 56 "" ""
+ SW20 1
+ D20 2
+Net 57 "" ""
+ D18 2
+ SW18 1
+Net 58 "" ""
+ SW4 1
+ D4 2
+Net 59 "" ""
+ D3 2
+ SW3 1
+Net 60 "" ""
+ SW5 1
+ D5 2
+Net 61 "/Col0" "Col0"
+ SW3 2
+ SW2 2
+ SW4 2
+ SW5 2
+ SW1 2
+ U1 18
+Net 62 "" ""
+ D2 2
+ SW2 1
+Net 63 "" ""
+ SW10 1
+ D10 2
+Net 64 "/Col1" "Col1"
+ SW7 2
+ SW6 2
+ U1 17
+ SW9 2
+ SW8 2
+ SW10 2
+Net 65 "" ""
+ D8 2
+ SW8 1
+Net 66 "" ""
+ SW9 1
+ D9 2
+Net 67 "" ""
+ SW7 1
+ D7 2
+Net 68 "GND" "GND"
+ C1 2
+ U1 19
+ P1 5
+Net 69 "VCC" "VCC"
+ R1 1
+ R2 1
+ R4 1
+ R3 1
+ C1 1
+ U1 21
+ P1 6
+Net 70 "//RESET" "/RESET"
+ U1 20
+ R1 2
+ P1 1
+Net 71 "//INT" "/INT"
+ P1 2
+ U1 24
+ R2 2
+Net 72 "/SDA" "SDA"
+ U1 22
+ P1 4
+ R4 2
+Net 73 "/SCL" "SCL"
+ P1 3
+ U1 23
+ R3 2
+}
+#End
