@@ -1,0 +1,988 @@
+# EESchema Netlist Version 1.1 created  27/01/2014 18:55:53
+(
+ ( /526DD5E3 $noname  C1 1u {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5251EBCD $noname  P1 KBD_6 {Lib=KBD_6}
+  (    1 //RESET )
+  (    2 //INT )
+  (    3 /SCL )
+  (    4 /SDA )
+  (    5 GND )
+  (    6 VCC )
+ )
+ ( /5251E93A $noname  R3 4K7 {Lib=R}
+  (    1 VCC )
+  (    2 /SCL )
+ )
+ ( /5251E939 $noname  R4 4K7 {Lib=R}
+  (    1 VCC )
+  (    2 /SDA )
+ )
+ ( /5251E92E $noname  R2 10K {Lib=R}
+  (    1 VCC )
+  (    2 //INT )
+ )
+ ( /5251E8DB $noname  R1 10K {Lib=R}
+  (    1 VCC )
+  (    2 //RESET )
+ )
+ ( /5251E672 $noname  SW40 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000023 )
+  (    2 /Col8 )
+ )
+ ( /5251E671 $noname  D40 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000023 )
+ )
+ ( /5251E670 $noname  D41 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000021 )
+ )
+ ( /5251E66F $noname  SW41 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000021 )
+  (    2 /Col8 )
+ )
+ ( /5251E66E $noname  SW43 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000020 )
+  (    2 /Col8 )
+ )
+ ( /5251E66D $noname  D43 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000020 )
+ )
+ ( /5251E66C $noname  D42 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000019 )
+ )
+ ( /5251E66B $noname  SW42 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000019 )
+  (    2 /Col8 )
+ )
+ ( /5251E66A $noname  D44 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000028 )
+ )
+ ( /5251E669 $noname  SW44 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000028 )
+  (    2 /Col8 )
+ )
+ ( /5251E668 $noname  SW49 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000029 )
+  (    2 /Col9 )
+ )
+ ( /5251E667 $noname  D49 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000029 )
+ )
+ ( /5251E666 $noname  SW47 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000030 )
+  (    2 /Col9 )
+ )
+ ( /5251E665 $noname  D47 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000030 )
+ )
+ ( /5251E664 $noname  D48 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000031 )
+ )
+ ( /5251E663 $noname  SW48 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000031 )
+  (    2 /Col9 )
+ )
+ ( /5251E662 $noname  SW46 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000024 )
+  (    2 /Col9 )
+ )
+ ( /5251E661 $noname  D46 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000024 )
+ )
+ ( /5251E660 $noname  D45 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000025 )
+ )
+ ( /5251E65F $noname  SW45 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000025 )
+  (    2 /Col9 )
+ )
+ ( /5251E65E $noname  SW21 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000026 )
+  (    2 /Col4 )
+ )
+ ( /5251E65D $noname  D21 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000026 )
+ )
+ ( /5251E65C $noname  D22 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000027 )
+ )
+ ( /5251E65B $noname  SW22 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000027 )
+  (    2 /Col4 )
+ )
+ ( /5251E65A $noname  SW24 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000005 )
+  (    2 /Col4 )
+ )
+ ( /5251E659 $noname  D24 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000005 )
+ )
+ ( /5251E658 $noname  D23 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000006 )
+ )
+ ( /5251E657 $noname  SW23 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000006 )
+  (    2 /Col4 )
+ )
+ ( /5251E654 $noname  SW29 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000007 )
+  (    2 /Col5 )
+ )
+ ( /5251E653 $noname  D29 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000007 )
+ )
+ ( /5251E652 $noname  SW27 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000008 )
+  (    2 /Col5 )
+ )
+ ( /5251E651 $noname  D27 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000008 )
+ )
+ ( /5251E650 $noname  D28 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000009 )
+ )
+ ( /5251E64F $noname  SW28 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000009 )
+  (    2 /Col5 )
+ )
+ ( /5251E64E $noname  SW26 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000004 )
+  (    2 /Col5 )
+ )
+ ( /5251E64D $noname  D26 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000004 )
+ )
+ ( /5251E64C $noname  D25 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000003 )
+ )
+ ( /5251E64B $noname  SW25 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000003 )
+  (    2 /Col5 )
+ )
+ ( /5251E64A $noname  SW35 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000002 )
+  (    2 /Col7 )
+ )
+ ( /5251E649 $noname  D35 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000002 )
+ )
+ ( /5251E648 $noname  D36 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000001 )
+ )
+ ( /5251E647 $noname  SW36 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000001 )
+  (    2 /Col7 )
+ )
+ ( /5251E646 $noname  SW38 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000014 )
+  (    2 /Col7 )
+ )
+ ( /5251E645 $noname  D38 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000014 )
+ )
+ ( /5251E644 $noname  D37 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000015 )
+ )
+ ( /5251E643 $noname  SW37 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000015 )
+  (    2 /Col7 )
+ )
+ ( /5251E642 $noname  D39 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000016 )
+ )
+ ( /5251E641 $noname  SW39 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000016 )
+  (    2 /Col7 )
+ )
+ ( /5251E640 $noname  SW34 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000017 )
+  (    2 /Col6 )
+ )
+ ( /5251E63F $noname  D34 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000017 )
+ )
+ ( /5251E63E $noname  SW32 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000018 )
+  (    2 /Col6 )
+ )
+ ( /5251E63D $noname  D32 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000018 )
+ )
+ ( /5251E63C $noname  D33 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000010 )
+ )
+ ( /5251E63B $noname  SW33 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000010 )
+  (    2 /Col6 )
+ )
+ ( /5251E63A $noname  SW31 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000011 )
+  (    2 /Col6 )
+ )
+ ( /5251E639 $noname  D31 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000011 )
+ )
+ ( /5251E638 $noname  D30 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000012 )
+ )
+ ( /5251E637 $noname  SW30 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000012 )
+  (    2 /Col6 )
+ )
+ ( /5251E636 $noname  SW11 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000013 )
+  (    2 /Col2 )
+ )
+ ( /5251E635 $noname  D11 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000013 )
+ )
+ ( /5251E634 $noname  D12 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000054 )
+ )
+ ( /5251E633 $noname  SW12 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000054 )
+  (    2 /Col2 )
+ )
+ ( /5251E632 $noname  SW14 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000055 )
+  (    2 /Col2 )
+ )
+ ( /5251E631 $noname  D14 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000055 )
+ )
+ ( /5251E630 $noname  D13 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000057 )
+ )
+ ( /5251E62F $noname  SW13 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000057 )
+  (    2 /Col2 )
+ )
+ ( /5251E62E $noname  D15 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000058 )
+ )
+ ( /5251E62D $noname  SW15 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000058 )
+  (    2 /Col2 )
+ )
+ ( /5251E62C $noname  SW20 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000050 )
+  (    2 /Col3 )
+ )
+ ( /5251E62B $noname  D20 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000050 )
+ )
+ ( /5251E62A $noname  SW18 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000051 )
+  (    2 /Col3 )
+ )
+ ( /5251E629 $noname  D18 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000051 )
+ )
+ ( /5251E628 $noname  D19 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000052 )
+ )
+ ( /5251E627 $noname  SW19 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000052 )
+  (    2 /Col3 )
+ )
+ ( /5251E626 $noname  SW17 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000053 )
+  (    2 /Col3 )
+ )
+ ( /5251E625 $noname  D17 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000053 )
+ )
+ ( /5251E624 $noname  D16 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000065 )
+ )
+ ( /5251E623 $noname  SW16 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000065 )
+  (    2 /Col3 )
+ )
+ ( /5251E61F $noname  SW6 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000066 )
+  (    2 /Col1 )
+ )
+ ( /5251E61E $noname  D6 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000066 )
+ )
+ ( /5251E61D $noname  D7 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000067 )
+ )
+ ( /5251E61C $noname  SW7 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000067 )
+  (    2 /Col1 )
+ )
+ ( /5251E61B $noname  SW9 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000068 )
+  (    2 /Col1 )
+ )
+ ( /5251E61A $noname  D9 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000068 )
+ )
+ ( /5251E619 $noname  D8 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000059 )
+ )
+ ( /5251E618 $noname  SW8 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000059 )
+  (    2 /Col1 )
+ )
+ ( /5251E617 $noname  D10 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000060 )
+ )
+ ( /5251E616 $noname  SW10 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000060 )
+  (    2 /Col1 )
+ )
+ ( /5251E5FF $noname  SW5 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000062 )
+  (    2 /Col0 )
+ )
+ ( /5251E5FE $noname  D5 1n914 {Lib=DIODE}
+  (    1 /Row0 )
+  (    2 N-000062 )
+ )
+ ( /5251E5F7 $noname  SW3 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000063 )
+  (    2 /Col0 )
+ )
+ ( /5251E5F6 $noname  D3 1n914 {Lib=DIODE}
+  (    1 /Row2 )
+  (    2 N-000063 )
+ )
+ ( /5251E5F5 $noname  D4 1n914 {Lib=DIODE}
+  (    1 /Row1 )
+  (    2 N-000064 )
+ )
+ ( /5251E5F4 $noname  SW4 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000064 )
+  (    2 /Col0 )
+ )
+ ( /5251E5E1 $noname  SW2 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000033 )
+  (    2 /Col0 )
+ )
+ ( /5251E5E0 $noname  D2 1n914 {Lib=DIODE}
+  (    1 /Row3 )
+  (    2 N-000033 )
+ )
+ ( /5251E450 $noname  D1 1n914 {Lib=DIODE}
+  (    1 /Row4 )
+  (    2 N-000034 )
+ )
+ ( /524A2BD9 $noname  U1 TCA8418 {Lib=TCA8418}
+  (    1 /Row4 )
+  (    2 /Row3 )
+  (    3 /Row2 )
+  (    4 /Row1 )
+  (    5 /Row0 )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 /Col9 )
+  (   10 /Col8 )
+  (   11 /Col7 )
+  (   12 /Col6 )
+  (   13 /Col5 )
+  (   14 /Col4 )
+  (   15 /Col3 )
+  (   16 /Col2 )
+  (   17 /Col1 )
+  (   18 /Col0 )
+  (   19 GND )
+  (   20 //RESET )
+  (   21 VCC )
+  (   22 /SDA )
+  (   23 /SCL )
+  (   24 //INT )
+ )
+ ( /52496E08 $noname  SW1 MX {Lib=SW_PUSH_SMALL}
+  (    1 N-000034 )
+  (    2 /Col0 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D40
+ D?
+ S*
+$endlist
+$component D41
+ D?
+ S*
+$endlist
+$component D43
+ D?
+ S*
+$endlist
+$component D42
+ D?
+ S*
+$endlist
+$component D44
+ D?
+ S*
+$endlist
+$component D49
+ D?
+ S*
+$endlist
+$component D47
+ D?
+ S*
+$endlist
+$component D48
+ D?
+ S*
+$endlist
+$component D46
+ D?
+ S*
+$endlist
+$component D45
+ D?
+ S*
+$endlist
+$component D21
+ D?
+ S*
+$endlist
+$component D22
+ D?
+ S*
+$endlist
+$component D24
+ D?
+ S*
+$endlist
+$component D23
+ D?
+ S*
+$endlist
+$component D29
+ D?
+ S*
+$endlist
+$component D27
+ D?
+ S*
+$endlist
+$component D28
+ D?
+ S*
+$endlist
+$component D26
+ D?
+ S*
+$endlist
+$component D25
+ D?
+ S*
+$endlist
+$component D35
+ D?
+ S*
+$endlist
+$component D36
+ D?
+ S*
+$endlist
+$component D38
+ D?
+ S*
+$endlist
+$component D37
+ D?
+ S*
+$endlist
+$component D39
+ D?
+ S*
+$endlist
+$component D34
+ D?
+ S*
+$endlist
+$component D32
+ D?
+ S*
+$endlist
+$component D33
+ D?
+ S*
+$endlist
+$component D31
+ D?
+ S*
+$endlist
+$component D30
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component D12
+ D?
+ S*
+$endlist
+$component D14
+ D?
+ S*
+$endlist
+$component D13
+ D?
+ S*
+$endlist
+$component D15
+ D?
+ S*
+$endlist
+$component D20
+ D?
+ S*
+$endlist
+$component D18
+ D?
+ S*
+$endlist
+$component D19
+ D?
+ S*
+$endlist
+$component D17
+ D?
+ S*
+$endlist
+$component D16
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ SW36 1
+ D36 2
+Net 2 "" ""
+ SW35 1
+ D35 2
+Net 3 "" ""
+ D25 2
+ SW25 1
+Net 4 "" ""
+ D26 2
+ SW26 1
+Net 5 "" ""
+ SW24 1
+ D24 2
+Net 6 "" ""
+ SW23 1
+ D23 2
+Net 7 "" ""
+ D29 2
+ SW29 1
+Net 8 "" ""
+ SW27 1
+ D27 2
+Net 9 "" ""
+ D28 2
+ SW28 1
+Net 10 "" ""
+ SW33 1
+ D33 2
+Net 11 "" ""
+ D31 2
+ SW31 1
+Net 12 "" ""
+ D30 2
+ SW30 1
+Net 13 "" ""
+ D11 2
+ SW11 1
+Net 14 "" ""
+ SW38 1
+ D38 2
+Net 15 "" ""
+ SW37 1
+ D37 2
+Net 16 "" ""
+ D39 2
+ SW39 1
+Net 17 "" ""
+ D34 2
+ SW34 1
+Net 18 "" ""
+ D32 2
+ SW32 1
+Net 19 "" ""
+ D42 2
+ SW42 1
+Net 20 "" ""
+ SW43 1
+ D43 2
+Net 21 "" ""
+ SW41 1
+ D41 2
+Net 22 "VCC" "VCC"
+ C1 1
+ U1 21
+ R1 1
+ R2 1
+ R4 1
+ R3 1
+ P1 6
+Net 23 "" ""
+ SW40 1
+ D40 2
+Net 24 "" ""
+ D46 2
+ SW46 1
+Net 25 "" ""
+ SW45 1
+ D45 2
+Net 26 "" ""
+ SW21 1
+ D21 2
+Net 27 "" ""
+ D22 2
+ SW22 1
+Net 28 "" ""
+ SW44 1
+ D44 2
+Net 29 "" ""
+ D49 2
+ SW49 1
+Net 30 "" ""
+ D47 2
+ SW47 1
+Net 31 "" ""
+ D48 2
+ SW48 1
+Net 32 "/Col0" "Col0"
+ SW5 2
+ SW3 2
+ SW1 2
+ U1 18
+ SW4 2
+ SW2 2
+Net 33 "" ""
+ SW2 1
+ D2 2
+Net 34 "" ""
+ SW1 1
+ D1 2
+Net 35 "/Col8" "Col8"
+ SW44 2
+ SW40 2
+ SW42 2
+ SW43 2
+ SW41 2
+ U1 10
+Net 36 "/Col7" "Col7"
+ SW38 2
+ SW37 2
+ SW36 2
+ U1 11
+ SW39 2
+ SW35 2
+Net 37 "/Col6" "Col6"
+ SW30 2
+ SW32 2
+ SW33 2
+ U1 12
+ SW31 2
+ SW34 2
+Net 38 "/Col5" "Col5"
+ SW28 2
+ U1 13
+ SW27 2
+ SW29 2
+ SW26 2
+ SW25 2
+Net 39 "/Col4" "Col4"
+ SW22 2
+ U1 14
+ SW24 2
+ SW21 2
+ SW23 2
+Net 40 "/Col3" "Col3"
+ SW16 2
+ U1 15
+ SW20 2
+ SW19 2
+ SW17 2
+ SW18 2
+Net 41 "/Row4" "Row4"
+ D30 1
+ D1 1
+ D21 1
+ D45 1
+ D40 1
+ D11 1
+ D25 1
+ D6 1
+ D35 1
+ D16 1
+ U1 1
+Net 42 "/Row3" "Row3"
+ D2 1
+ D12 1
+ D17 1
+ D41 1
+ D31 1
+ D7 1
+ D46 1
+ D36 1
+ U1 2
+ D26 1
+ D22 1
+Net 43 "/Row2" "Row2"
+ D47 1
+ D42 1
+ D18 1
+ D27 1
+ D23 1
+ D3 1
+ D37 1
+ D32 1
+ D13 1
+ D8 1
+ U1 3
+Net 44 "/Row1" "Row1"
+ D43 1
+ D33 1
+ D38 1
+ D28 1
+ U1 4
+ D4 1
+ D48 1
+ D19 1
+ D9 1
+ D14 1
+ D24 1
+Net 45 "/Row0" "Row0"
+ D39 1
+ D49 1
+ U1 5
+ D20 1
+ D44 1
+ D34 1
+ D15 1
+ D10 1
+ D29 1
+ D5 1
+Net 49 "/Col9" "Col9"
+ U1 9
+ SW48 2
+ SW46 2
+ SW47 2
+ SW49 2
+ SW45 2
+Net 50 "" ""
+ D20 2
+ SW20 1
+Net 51 "" ""
+ SW18 1
+ D18 2
+Net 52 "" ""
+ D19 2
+ SW19 1
+Net 53 "" ""
+ D17 2
+ SW17 1
+Net 54 "" ""
+ SW12 1
+ D12 2
+Net 55 "" ""
+ SW14 1
+ D14 2
+Net 56 "/Col2" "Col2"
+ SW15 2
+ SW13 2
+ SW14 2
+ SW12 2
+ U1 16
+ SW11 2
+Net 57 "" ""
+ SW13 1
+ D13 2
+Net 58 "" ""
+ SW15 1
+ D15 2
+Net 59 "" ""
+ D8 2
+ SW8 1
+Net 60 "" ""
+ D10 2
+ SW10 1
+Net 61 "/Col1" "Col1"
+ SW8 2
+ SW10 2
+ U1 17
+ SW9 2
+ SW7 2
+ SW6 2
+Net 62 "" ""
+ SW5 1
+ D5 2
+Net 63 "" ""
+ D3 2
+ SW3 1
+Net 64 "" ""
+ D4 2
+ SW4 1
+Net 65 "" ""
+ D16 2
+ SW16 1
+Net 66 "" ""
+ SW6 1
+ D6 2
+Net 67 "" ""
+ D7 2
+ SW7 1
+Net 68 "" ""
+ SW9 1
+ D9 2
+Net 69 "//INT" "/INT"
+ P1 2
+ U1 24
+ R2 2
+Net 70 "/SCL" "SCL"
+ P1 3
+ R3 2
+ U1 23
+Net 71 "/SDA" "SDA"
+ P1 4
+ R4 2
+ U1 22
+Net 72 "GND" "GND"
+ P1 5
+ U1 19
+ C1 2
+Net 73 "//RESET" "/RESET"
+ P1 1
+ R1 2
+ U1 20
+}
+#End
