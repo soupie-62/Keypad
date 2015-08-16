@@ -1,0 +1,156 @@
+.ctsocial {
+	DISPLAY: table; MARGIN-BOTTOM: 10px
+}
+.ctsocial UL.social {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 35px; PADDING-TOP: 0px
+}
+.ctsocial UL.social:hover LI {
+	FILTER: alpha(opacity=20); opacity: 0.2
+}
+.ctsocial UL.social LI {
+	FILTER: alpha(opacity=80); PADDING-RIGHT: 3px; DISPLAY: inline; BACKGROUND-REPEAT: no-repeat; FLOAT: left; opacity: 0.8; background-size: 32px 32px; transition-property: opacity; -webkit-transition-property: opacity; -moz-transition-property: opacity; -o-transition-property: opacity; transition-duration: 500ms; -webkit-transition-duration: 500ms; -moz-transition-duration: 500ms; -o-transition-duration: 500ms
+}
+.ctsocial UL.social LI:hover {
+	FILTER: none; opacity: 1; -webkit-filter: grayscale(0%)
+}
+.ctsocial UL.social LI A {
+	POSITION: relative; TEXT-ALIGN: center; WIDTH: 32px; DISPLAY: block; HEIGHT: 32px
+}
+.ctsocial UL.social LI.tumblr {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/tumblr.svg)
+}
+.ctsocial UL.social LI.vimeo {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/vimeo.svg)
+}
+.ctsocial UL.social LI.facebook {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/facebook.svg)
+}
+.ctsocial UL.social LI.flickr {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/flickr.svg)
+}
+.ctsocial UL.social LI.pinterest {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/pinterest.svg)
+}
+.ctsocial UL.social LI.youtube {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/youtube.svg)
+}
+.ctsocial UL.social LI.twitter {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/twitter.svg)
+}
+.ctsocial UL.social LI.github {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/github.svg)
+}
+.ctsocial UL.social LI.dribbble {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/dribbble.svg)
+}
+.ctsocial UL.social LI.gplus {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/gplus.svg)
+}
+.ctsocial UL.social LI.linkedin {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/linkedin.svg)
+}
+.ctsocial UL.social LI.spotify {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/spotify.svg)
+}
+.ctsocial UL.social LI.instagram {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/instagram.svg)
+}
+.ctsocial UL.social LI.behance {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/behance.svg)
+}
+.ctsocial UL.social LI.rdio {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/rdio.svg)
+}
+.ctsocial UL.social LI.soundcloud {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/color/soundcloud.svg)
+}
+.ctsocial UL.bw.circle.social LI.tumblr {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/tumblr.svg)
+}
+.ctsocial UL.bw.circle.social LI.vimeo {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/vimeo.svg)
+}
+.ctsocial UL.bw.circle.social LI.facebook {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/facebook.svg)
+}
+.ctsocial UL.bw.circle.social LI.flickr {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/flickr.svg)
+}
+.ctsocial UL.bw.circle.social LI.pinterest {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/pinterest.svg)
+}
+.ctsocial UL.bw.circle.social LI.youtube {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/youtube.svg)
+}
+.ctsocial UL.bw.circle.social LI.twitter {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/twitter.svg)
+}
+.ctsocial UL.bw.circle.social LI.github {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/github.svg)
+}
+.ctsocial UL.bw.circle.social LI.dribbble {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/dribbble.svg)
+}
+.ctsocial UL.bw.circle.social LI.gplus {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/circle/bw/gplus.svg)
+}
+.ctsocial UL.square.social LI.tumblr {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/tumblr.svg)
+}
+.ctsocial UL.square.social LI.vimeo {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/vimeo.svg)
+}
+.ctsocial UL.square.social LI.facebook {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/facebook.svg)
+}
+.ctsocial UL.square.social LI.flickr {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/flickr.svg)
+}
+.ctsocial UL.square.social LI.pinterest {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/pinterest.svg)
+}
+.ctsocial UL.square.social LI.youtube {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/youtube.svg)
+}
+.ctsocial UL.square.social LI.twitter {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/twitter.svg)
+}
+.ctsocial UL.square.social LI.github {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/github.svg)
+}
+.ctsocial UL.square.social LI.dribbble {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/dribbble.svg)
+}
+.ctsocial UL.square.social LI.gplus {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/color/gplus.svg)
+}
+.ctsocial UL.bw.square.social LI.tumblr {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/tumblr.svg)
+}
+.ctsocial UL.bw.square.social LI.vimeo {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/vimeo.svg)
+}
+.ctsocial UL.bw.square.social LI.facebook {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/facebook.svg)
+}
+.ctsocial UL.bw.square.social LI.flickr {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/flickr.svg)
+}
+.ctsocial UL.bw.square.social LI.pinterest {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/pinterest.svg)
+}
+.ctsocial UL.bw.square.social LI.youtube {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/youtube.svg)
+}
+.ctsocial UL.bw.square.social LI.twitter {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/twitter.svg)
+}
+.ctsocial UL.bw.square.social LI.github {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/github.svg)
+}
+.ctsocial UL.bw.square.social LI.dribbble {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/dribbble.svg)
+}
+.ctsocial UL.bw.square.social LI.gplus {
+	BACKGROUND-IMAGE: url(../../assets/images/icons/square/bw/gplus.svg)
+}

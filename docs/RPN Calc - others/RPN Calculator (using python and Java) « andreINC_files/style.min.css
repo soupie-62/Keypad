@@ -1,0 +1,243 @@
+BLOCKQUOTE CITE:before {
+	CONTENT: '\2014 \00A0'
+}
+BLOCKQUOTE CITE {
+	LINE-HEIGHT: 18px; DISPLAY: block; COLOR: #999; FONT-SIZE: 13px
+}
+figure {
+	MARGIN: 0px
+}
+H1 {
+	CLEAR: both
+}
+H2 {
+	CLEAR: both
+}
+H3 {
+	CLEAR: both
+}
+H4 {
+	CLEAR: both
+}
+H5 {
+	CLEAR: both
+}
+H6 {
+	CLEAR: both
+}
+.clear {
+	CLEAR: both
+}
+.assistive-text {
+	CLIP: rect(1px 1px 1px 1px); POSITION: absolute !important
+}
+BODY > .container {
+	MARGIN: 18px auto
+}
+.sidebar-content #primary {
+	MARGIN: 0px 20px 0px 0px; FLOAT: right
+}
+.sidebar-content #attachment-comment {
+	MARGIN: 0px 20px 0px 0px; FLOAT: right
+}
+.block {
+	DISPLAY: block
+}
+#page {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-RIGHT: -20px; PADDING-TOP: 14px
+}
+#header-image {
+	DISPLAY: block
+}
+#menu-alert {
+	POSITION: absolute; PADDING-BOTTOM: 6px; MARGIN: 4px 0px 0px; PADDING-LEFT: 14px; PADDING-RIGHT: 35px; PADDING-TOP: 6px
+}
+#branding hgroup {
+	MARGIN-BOTTOM: 18px
+}
+#header-image {
+	MARGIN-BOTTOM: 18px
+}
+.entry-content {
+	MARGIN-BOTTOM: 18px
+}
+.entry-attachment {
+	MARGIN-BOTTOM: 36px
+}
+.single #author-info {
+	MARGIN-BOTTOM: 54px
+}
+.author #author-info {
+	MARGIN-BOTTOM: 54px
+}
+.single article.post {
+	MARGIN-BOTTOM: 54px
+}
+.single article.page {
+	MARGIN-BOTTOM: 54px
+}
+#author-info {
+	MARGIN-BOTTOM: 72px
+}
+article.post {
+	MARGIN-BOTTOM: 72px
+}
+article.page {
+	MARGIN-BOTTOM: 72px
+}
+.page-header {
+	WORD-WRAP: break-word
+}
+.entry-content {
+	WORD-WRAP: break-word
+}
+.post-password-form LEGEND {
+	FONT-SIZE: inherit
+}
+.entry-content .twitter-tweet-rendered {
+	MAX-WIDTH: 100% !important
+}
+#comments-title {
+	BORDER-BOTTOM: #eee 1px solid; MARGIN: 0px 0px 27px; FONT-SIZE: 19.5px
+}
+#comment {
+	MAX-WIDTH: 100%
+}
+.entry-content IFRAME {
+	MAX-WIDTH: 100%
+}
+.entry-content EMBED {
+	MAX-WIDTH: 100%
+}
+.commentlist > LI {
+	MARGIN-BOTTOM: 36px
+}
+.commentlist UL.children {
+	LIST-STYLE-TYPE: none; MARGIN: 10px 0px 18px; LIST-STYLE-IMAGE: none
+}
+#reply-title {
+	POSITION: relative
+}
+#reply-title SMALL {
+	POSITION: absolute; TOP: 7px; RIGHT: 0px
+}
+.form-search {
+	MARGIN: 0px
+}
+.widget {
+	WORD-WRAP: break-word
+}
+.widget .wp-caption {
+	DISPLAY: inline-block
+}
+.entry-content .post-thumbnail {
+	MARGIN: 0px 20px 20px 0px
+}
+.entry-attachment .attachment-table.thumbnail {
+	MARGIN: 0px auto; DISPLAY: table
+}
+.thumbnail > IMG {
+	WIDTH: auto
+}
+IMG.wp-smiley {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 0px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+.thumbnails.gallery-columns-3 [class*='span'] {
+	WIDTH: 29.3%
+}
+.thumbnails.gallery-columns-5 [class*='span'] {
+	WIDTH: 15.9%
+}
+.thumbnails.gallery-columns-6 [class*='span'] {
+	WIDTH: 12.6%
+}
+.thumbnails.gallery-columns-7 [class*='span'] {
+	WIDTH: 10.2%
+}
+#colophon .credits {
+	MARGIN: 0px
+}
+#site-generator {
+	FONT-STYLE: italic; FONT-FAMILY: Georgia, "Bitstream Charter", serif; FLOAT: right
+}
+#site-generator A {
+	LINE-HEIGHT: 16px; PADDING-LEFT: 20px; DISPLAY: inline-block; BACKGROUND: url(img/wordpress.png) no-repeat left center; COLOR: #787878; TEXT-DECORATION: none
+}
+.footer-nav-menu#site-generator A {
+	MARGIN-TOP: 10px
+}
+TABLE .label {
+	TEXT-TRANSFORM: inherit; BACKGROUND-COLOR: transparent; COLOR: inherit; FONT-SIZE: inherit; border-radius: none
+}
+.comment-subscription-form > INPUT[type=checkbox] {
+	POSITION: absolute
+}
+.comment-subscription-form > LABEL {
+	MIN-HEIGHT: 18px; PADDING-LEFT: 18px
+}
+.navbar-fixed-top {
+	POSITION: fixed
+}
+.navbar-fixed-bottom {
+	POSITION: fixed
+}
+#comment {
+	BOX-SIZING: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.thumbnail {
+	BOX-SIZING: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.label .post-edit-link {
+	COLOR: #fff
+}
+.label .comment-edit-link {
+	COLOR: #fff
+}
+.navbar-search {
+	HEIGHT: 34px
+}
+.pagination SPAN {
+	BACKGROUND-COLOR: #f5f5f5; COLOR: #999; CURSOR: default
+}
+.pagination SPAN.dots {
+	BACKGROUND-COLOR: #fff
+}
+.aligncenter {
+	MARGIN: 0px auto 20px; DISPLAY: block
+}
+.alignright {
+	MARGIN: 0px 0px 20px 20px; FLOAT: right
+}
+.alignleft {
+	MARGIN: 0px 20px 20px 0px; FLOAT: left
+}
+.wp-caption {
+	MAX-WIDTH: 100%
+}
+.wp-caption .wp-caption-text {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 9px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; PADDING-TOP: 0px
+}
+.gallery-caption {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 9px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; PADDING-TOP: 0px
+}
+.entry-caption {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 9px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; PADDING-TOP: 0px
+}
+.wp-caption .wp-caption-text {
+	PADDING-TOP: 9px
+}
+.alignnone.wp-caption {
+	MARGIN: 5px 20px 20px 0px
+}
+.alignleft.wp-caption {
+	MARGIN: 5px 20px 20px 0px
+}
+.alignright.wp-caption {
+	MARGIN: 5px 0px 20px 20px
+}
+.sticky {
+	
+}
+.bypostauthor {
+	
+}

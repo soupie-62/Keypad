@@ -1,0 +1,76 @@
+/*
+
+ * Copyright (c) 2012, Intel Corporation. All rights reserved.
+ 
+* File revision: 04 October 2012
+ 
+* Please see http://software.intel.com/html5/license/samples 
+ 
+* and the included README.md file for license terms and conditions.
+ 
+*/
+
+
+
+html, body, #calc {
+   font-family: 'Shanti', sans-serif;
+}
+
+
+
+#calc {
+  background-color: #363634;
+}
+
+
+.display {
+  background-color: lightyellow;
+}
+
+
+.pad {
+   background-color: #363634;
+}
+
+
+.btnThemeText {
+    color: #A75734;
+}
+
+
+.btnMathText {
+    color: brown;
+}
+
+.btnClrText {
+    color: #363634;
+}
+
+.btnRetText {
+    color: #a8ea29;
+}
+
+.btnNumText{
+    color:white;
+}
+
+.btnText {
+    color: #B1B3C0;
+}
+
+.btnFnText {
+    color: black;
+}
+
+
+
+
+.button {
+  background-image: url('shinyredbutton.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%;
+
+  border: none;
+}
+

@@ -1,0 +1,102 @@
+#adminmenu #toplevel_page_bws_plugins DIV.wp-menu-image {
+	BACKGROUND: url(../images/icon_16.png) no-repeat center center
+}
+.admin-color-classic #adminmenu #toplevel_page_bws_plugins DIV.wp-menu-image {
+	BACKGROUND: url(../images/icon_16_b.png) no-repeat center center
+}
+#adminmenu #toplevel_page_bws_plugins:hover DIV.wp-menu-image {
+	BACKGROUND: url(../images/icon_16_c.png) no-repeat center center
+}
+#adminmenu .wp-has-current-submenu#toplevel_page_bws_plugins DIV.wp-menu-image {
+	BACKGROUND: url(../images/icon_16_c.png) no-repeat center center
+}
+.wrap .icon32-bws#icon-options-general {
+	BACKGROUND: url(../images/icon_36.png) no-repeat left top
+}
+.admin-color-classic .wrap .icon32-bws#icon-options-general {
+	BACKGROUND: url(../images/icon_36_b.png) no-repeat left top
+}
+#toplevel_page_bws_plugins .wp-submenu .wp-first-item {
+	DISPLAY: none
+}
+.bws_system_info_meta_box {
+	WIDTH: 850px
+}
+.bws_system_info_meta_box .hndle {
+	CURSOR: pointer !important
+}
+.bws_system_info {
+	WIDTH: 400px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.bws_system_info TH {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 50%; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.bws_system_info TBODY TD {
+	BORDER-BOTTOM: #dfdfdf 1px solid
+}
+.bws-plugin-reviews {
+	BORDER-BOTTOM: #70a8c2 1px solid; BORDER-LEFT: #70a8c2 1px solid; MAX-WIDTH: 400px; BACKGROUND: #bee1f1 0px 0px; BORDER-TOP: #70a8c2 1px solid; BORDER-RIGHT: #70a8c2 1px solid; border-radius: 3px
+}
+.bws-plugin-reviews-rate {
+	BORDER-BOTTOM: #70a8c2 1px dashed; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.bws-plugin-reviews-support {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.cptch_example_fields_actions {
+	POSITION: relative; PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; WIDTH: 140px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 18px; TOP: -7px; PADDING-TOP: 2px
+}
+.cptch_example_fields_actions IMG {
+	POSITION: relative; WIDTH: 30px; TOP: 6px
+}
+.cptch_block {
+	DIRECTION: ltr
+}
+.cptch_help_box {
+	BACKGROUND-IMAGE: url(../images/tooltip_icons.png); POSITION: relative; MARGIN: -3px 5px 3px; WIDTH: 29px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 29px; CLEAR: none !important; CURSOR: pointer
+}
+.cptch_hidden_help_text {
+	BORDER-BOTTOM: #dcdcdc 1px solid; POSITION: absolute; BORDER-LEFT: #dcdcdc 1px solid; PADDING-BOTTOM: 5px; LINE-HEIGHT: 1.5; PADDING-LEFT: 10px; WIDTH: 240px; PADDING-RIGHT: 10px; BACKGROUND: #f4f4f4; BORDER-TOP: #dcdcdc 1px solid; BORDER-RIGHT: #dcdcdc 1px solid; PADDING-TOP: 5px; LEFT: 40px; border-radius: 4px
+}
+.cptch_hidden_help_text:before {
+	POSITION: absolute; CONTENT: url("../images/help.png"); TOP: 7px; LEFT: -10px
+}
+TABLE.bws_pro_version {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; WIDTH: auto !important; MARGIN-BOTTOM: 5px; BACKGROUND: #e0e0e0; FLOAT: left; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+TABLE.bws_pro_version TH {
+	PADDING-LEFT: 10px; COLOR: #555
+}
+TABLE.bws_pro_version TD {
+	PADDING-LEFT: 10px; COLOR: #555
+}
+.bws_pro_version_tooltip {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; BACKGROUND: #fff; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+.bws_pro_version.form-table .bws_pro_version_tooltip TH {
+	PADDING-BOTTOM: 10px; FONT-WEIGHT: normal
+}
+.cptch_message {
+	BORDER-BOTTOM: #d4d4d4 1px solid; POSITION: relative; MIN-WIDTH: 800px; BORDER-LEFT: #d4d4d4 1px solid; MARGIN: 12px 0px; BACKGROUND: #ececec; OVERFLOW: hidden; BORDER-TOP: #d4d4d4 1px solid; BORDER-RIGHT: #d4d4d4 1px solid; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px
+}
+.cptch_message .cptch_text {
+	LINE-HEIGHT: 26px; MARGIN-TOP: 13px; FLOAT: left; COLOR: #000; FONT-SIZE: 15px
+}
+.cptch_message .cptch_text SPAN {
+	FONT-SIZE: 12px; opacity: 0.7
+}
+.cptch_message .cptch_button {
+	BORDER-BOTTOM: #1f75ad 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #1f75ad 1px solid; PADDING-BOTTOM: 12px; MARGIN: 15px 19px 15px 16px; PADDING-LEFT: 0px; WIDTH: 147px; PADDING-RIGHT: 0px; BACKGROUND: #227cc2; FLOAT: left; HEIGHT: 50px; COLOR: #fff; FONT-SIZE: 14px; BORDER-TOP: #1f75ad 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #1f75ad 1px solid; TEXT-DECORATION: none; PADDING-TOP: 12px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; text-shadow: 0 1px 3px #636363; -moz-box-shadow: 0px 1px 1px 0 #43acd9 inset; -webkit-box-shadow: 0px 1px 1px 0 #43acd9 inset; box-shadow: 0px 1px 1px 0 #43acd9 inset
+}
+.cptch_message .cptch_button:hover {
+	BORDER-BOTTOM: #bf573f 1px solid; BORDER-LEFT: #bf573f 1px solid; BACKGROUND: #f26e50; COLOR: #fff; BORDER-TOP: #bf573f 1px solid; BORDER-RIGHT: #bf573f 1px solid; -moz-box-shadow: 0px 1px 1px 0 #f5906f inset; -webkit-box-shadow: 0px 1px 1px 0 #f5906f inset; box-shadow: 0px 1px 1px 0 #f5906f inset
+}
+.cptch_message .cptch_button:focus {
+	BORDER-BOTTOM: #bf573f 1px solid; BORDER-LEFT: #bf573f 1px solid; BACKGROUND: #f26e50; COLOR: #fff; BORDER-TOP: #bf573f 1px solid; BORDER-RIGHT: #bf573f 1px solid; -moz-box-shadow: 0px 1px 1px 0 #f5906f inset; -webkit-box-shadow: 0px 1px 1px 0 #f5906f inset; box-shadow: 0px 1px 1px 0 #f5906f inset
+}
+.cptch_message .cptch_icon {
+	MARGIN: 18px 0px; FLOAT: right
+}
+.cptch_message .cptch_close_icon {
+	MARGIN: 8px; FLOAT: right; CURSOR: pointer
+}

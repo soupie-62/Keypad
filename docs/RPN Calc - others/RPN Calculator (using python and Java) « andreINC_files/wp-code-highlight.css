@@ -1,0 +1,105 @@
+PRE .pln {
+	COLOR: #000
+}
+PRE .str {
+	COLOR: #080
+}
+PRE .kwd {
+	COLOR: #008
+}
+PRE .com {
+	COLOR: #800
+}
+PRE .typ {
+	COLOR: #606
+}
+PRE .lit {
+	COLOR: #066
+}
+PRE .pun {
+	COLOR: #660
+}
+PRE .opn {
+	COLOR: #660
+}
+PRE .clo {
+	COLOR: #660
+}
+PRE .tag {
+	COLOR: #008
+}
+PRE .atn {
+	COLOR: #606
+}
+PRE .atv {
+	COLOR: #080
+}
+PRE .dec {
+	COLOR: #606
+}
+PRE .var {
+	COLOR: #606
+}
+PRE .fun {
+	COLOR: #f00
+}
+PRE.prettyprint {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 16px; MARGIN: 6px 0px; PADDING-LEFT: 7px; WIDTH: 98%; PADDING-RIGHT: 7px; WORD-WRAP: normal; OVERFLOW: auto; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 2px
+}
+OL.linenums LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 16px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+OL.linenums LI:before {
+	CONTENT: none
+}
+OL.linenums LI:after {
+	CONTENT: none
+}
+OL.linenums {
+	MARGIN: 0px; PADDING-LEFT: 27px
+}
+OL.linenums LI.L0 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L1 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L2 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L3 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L4 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L5 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L6 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L7 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L8 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L9 {
+	LIST-STYLE-TYPE: decimal
+}
+OL.linenums LI.L1 {
+	LIST-STYLE-TYPE: decimal; BACKGROUND: #eee
+}
+OL.linenums LI.L3 {
+	LIST-STYLE-TYPE: decimal; BACKGROUND: #eee
+}
+OL.linenums LI.L5 {
+	LIST-STYLE-TYPE: decimal; BACKGROUND: #eee
+}
+OL.linenums LI.L7 {
+	LIST-STYLE-TYPE: decimal; BACKGROUND: #eee
+}
+OL.linenums LI.L9 {
+	LIST-STYLE-TYPE: decimal; BACKGROUND: #eee
+}

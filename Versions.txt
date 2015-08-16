@@ -1,9 +1,11 @@
-Version 2B:
+﻿Version 2B:
 ----------
 49 keys, 120 mm x 55 mm board
 Improved button spacing, better mounting hole placement
-Problem: Itead Studio want boards <10 cm (100mm)
-	Need to move mounting holes, and squeeze buttons together a bit…
+
+Problem:	Itead Studio want boards <10 cm (100mm)
+
+		Need to move mounting holes, and squeeze buttons together a bit…
 
 Version 2A:
 ----------

@@ -1,0 +1,333 @@
+.wpProQuiz_answerCorrect {
+	BACKGROUND: #6db46d; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_answerCorrect LABEL {
+	FONT-WEIGHT: bold !important
+}
+.wpProQuiz_answerIncorrect {
+	BACKGROUND: #ff9191; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_content {
+	MARGIN-TOP: 10px !important; MARGIN-BOTTOM: 10px !important
+}
+.wpProQuiz_content H2 {
+	MARGIN-BOTTOM: 10px !important
+}
+* + HTML .wpProQuiz_button {
+	PADDING-BOTTOM: 3px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 3px !important
+}
+* + HTML .wpProQuiz_button:hover {
+	PADDING-BOTTOM: 3px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 3px !important
+}
+.wpProQuiz_button {
+	BORDER-BOTTOM: #13455b 1px solid; FILTER: none !important; BORDER-LEFT: #13455b 1px solid; PADDING-BOTTOM: 5px !important; MARGIN: 0px; PADDING-LEFT: 10px !important; PADDING-RIGHT: 10px !important; BACKGROUND: #13455b; FLOAT: none; COLOR: white !important; BORDER-TOP: #13455b 1px solid; FONT-WEIGHT: bold !important; BORDER-RIGHT: #13455b 1px solid; PADDING-TOP: 5px !important; border-radius: 11px; text-shadow: none; box-shadow: 1px 1px 1px #333
+}
+.wpProQuiz_button:hover {
+	BORDER-BOTTOM: #13455b 1px solid; FILTER: none !important; BORDER-LEFT: #13455b 1px solid; PADDING-BOTTOM: 5px !important; MARGIN: 0px; PADDING-LEFT: 10px !important; PADDING-RIGHT: 10px !important; BACKGROUND: #13455b; FLOAT: none; COLOR: white !important; BORDER-TOP: #13455b 1px solid; FONT-WEIGHT: bold !important; BORDER-RIGHT: #13455b 1px solid; PADDING-TOP: 5px !important; border-radius: 11px; text-shadow: none; box-shadow: 1px 1px 1px #333
+}
+.wpProQuiz_question_page {
+	MARGIN-BOTTOM: 10px !important
+}
+.wpProQuiz_question_page SPAN {
+	FONT-WEIGHT: bold !important
+}
+.wpProQuiz_questionListItem {
+	BACKGROUND-IMAGE: none !important; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 3px !important; LIST-STYLE-TYPE: none !important; PADDING-LEFT: 3px !important; PADDING-RIGHT: 3px !important; MARGIN-BOTTOM: 5px !important; MARGIN-LEFT: 0px !important; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none !important; BORDER-RIGHT: 0px; PADDING-TOP: 3px !important
+}
+.wpProQuiz_questionListItem > TABLE {
+	PADDING-BOTTOM: 0px !important; MARGIN: 0px; PADDING-LEFT: 0px !important; WIDTH: 100%; PADDING-RIGHT: 0px !important; BORDER-COLLAPSE: collapse !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_list {
+	PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_listItem {
+	PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_questionList {
+	PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_sortStringList {
+	PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_sortStringList {
+	PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_maxtrixSortCriterion {
+	PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_resultsList {
+	PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_catOverview OL {
+	PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_list {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.wpProQuiz_questionList {
+	BORDER-BOTTOM: #c3d1a3 1px solid; BORDER-LEFT: #c3d1a3 1px solid; PADDING-BOTTOM: 5px !important; LIST-STYLE-TYPE: none !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; MARGIN-BOTTOM: 10px !important; BACKGROUND: #f8faf5; BORDER-TOP: #c3d1a3 1px solid; LIST-STYLE-IMAGE: none !important; BORDER-RIGHT: #c3d1a3 1px solid; PADDING-TOP: 5px !important
+}
+.wpProQuiz_listItem {
+	BACKGROUND-IMAGE: none !important; BORDER-BOTTOM: 0px; POSITION: relative !important; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.wpProQuiz_response {
+	BORDER-BOTTOM: #c4c4c4 1px solid; BORDER-LEFT: #c4c4c4 1px solid; PADDING-BOTTOM: 5px !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; MARGIN-BOTTOM: 15px !important; BACKGROUND: #f8faf5; BORDER-TOP: #c4c4c4 1px solid; BORDER-RIGHT: #c4c4c4 1px solid; PADDING-TOP: 5px !important; box-shadow: 1px 1px 2px #AAA
+}
+.wpProQuiz_response SPAN {
+	FONT-WEIGHT: bold !important
+}
+.wpProQuiz_sort {
+	WIDTH: 25px !important
+}
+.wpProQuiz_results H3 {
+	MARGIN-BOTTOM: 10px !important
+}
+.wpProQuiz_sort_correct_answer {
+	DISPLAY: none !important; FONT-WEIGHT: bold !important; MARGIN-RIGHT: 5px !important
+}
+.wpProQuiz_sortable {
+	BORDER-BOTTOM: lightgrey 1px solid; BORDER-LEFT: lightgrey 1px solid; PADDING-BOTTOM: 5px !important; BACKGROUND-COLOR: #f8faf5 !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; BORDER-TOP: lightgrey 1px solid; CURSOR: move; BORDER-RIGHT: lightgrey 1px solid; PADDING-TOP: 5px !important; box-shadow: 2px 2px 1px #EEE
+}
+.wpProQuiz_sortStringItem {
+	BORDER-BOTTOM: lightgrey 1px solid; BORDER-LEFT: lightgrey 1px solid; PADDING-BOTTOM: 5px !important; BACKGROUND-COLOR: #f8faf5 !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; BORDER-TOP: lightgrey 1px solid; CURSOR: move; BORDER-RIGHT: lightgrey 1px solid; PADDING-TOP: 5px !important; box-shadow: 2px 2px 1px #EEE
+}
+.wpProQuiz_time_limit .time {
+	MARGIN-TOP: 5px !important; MARGIN-BOTTOM: 5px !important; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_time_limit .wpProQuiz_progress {
+	BACKGROUND-COLOR: blue !important; MARGIN-BOTTOM: 5px !important; HEIGHT: 10px !important
+}
+.wpProQuiz_time_limit_expired {
+	TEXT-ALIGN: center !important; FONT-SIZE: 15px !important; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_question_text {
+	MARGIN-BOTTOM: 10px !important
+}
+.wpProQuiz_tipp > DIV {
+	Z-INDEX: 99999 !important; BORDER-BOTTOM: #363636 1px dotted; POSITION: absolute !important; BORDER-LEFT: #363636 1px dotted; PADDING-BOTTOM: 10px !important; BACKGROUND-COLOR: #ddecff !important; PADDING-LEFT: 10px !important; BOTTOM: 5px !important; PADDING-RIGHT: 10px !important; BORDER-TOP: #363636 1px dotted; RIGHT: 5px !important; BORDER-RIGHT: #363636 1px dotted; PADDING-TOP: 10px !important; LEFT: 5px !important; border-radius: 10px; box-shadow: 2px 2px 5px 0 #313131
+}
+.wpProQuiz_matrixSortString {
+	MARGIN-TOP: 0px !important; MARGIN-BOTTOM: 10px !important
+}
+.wpProQuiz_matrixSortString > H3 {
+	MARGIN-TOP: 0px !important; MARGIN-BOTTOM: 10px !important
+}
+.wpProQuiz_matrixSortString {
+	BORDER-BOTTOM: #c3d1a3 1px solid; BORDER-LEFT: #c3d1a3 1px solid; PADDING-BOTTOM: 5px !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; BACKGROUND: #f8faf5; BORDER-TOP: #c3d1a3 1px solid; BORDER-RIGHT: #c3d1a3 1px solid; PADDING-TOP: 5px !important
+}
+.wpProQuiz_sortStringList {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 10px !important; PADDING-LEFT: 10px !important; PADDING-RIGHT: 10px !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 10px !important
+}
+.wpProQuiz_sortStringList > LI {
+	MARGIN-BOTTOM: 5px !important; FLOAT: left !important; MARGIN-LEFT: 5px !important; MARGIN-RIGHT: 5px !important
+}
+.wpProQuiz_sortStringItem {
+	BACKGROUND-IMAGE: none !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; LIST-STYLE-IMAGE: none !important
+}
+.wpProQuiz_maxtrixSortCriterion {
+	PADDING-BOTTOM: 5px !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; PADDING-TOP: 5px !important
+}
+.wpProQuiz_placehold {
+	BACKGROUND-IMAGE: none !important; MIN-WIDTH: 50px !important; PADDING-BOTTOM: 5px !important; BACKGROUND-COLOR: #ffffc2 !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; HEIGHT: 30px !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 5px !important
+}
+.wpProQuiz_maxtrixSortText {
+	PADDING-BOTTOM: 5px !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; PADDING-TOP: 5px !important
+}
+.wpProQuiz_mextrixTr > TD {
+	BORDER-BOTTOM: #d1d1d1 1px solid; BORDER-LEFT: #d1d1d1 1px solid; PADDING-BOTTOM: 5px !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; VERTICAL-ALIGN: middle !important; BORDER-TOP: #d1d1d1 1px solid; BORDER-RIGHT: #d1d1d1 1px solid; PADDING-TOP: 5px !important
+}
+.wpProQuiz_points {
+	TEXT-ALIGN: center !important; MARGIN-BOTTOM: 20px !important; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_cloze INPUT[type='text'] {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px !important; MARGIN: 0px; PADDING-LEFT: 4px !important; PADDING-RIGHT: 4px !important; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 18px !important; COLOR: black !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px !important; border-radius: 0; box-shadow: 0 0
+}
+.wpProQuiz_cloze INPUT:focus {
+	OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !important; OUTLINE-WIDTH: medium !important
+}
+.wpProQuiz_questionListItem INPUT {
+	MARGIN: 0px; DISPLAY: inline; FONT-WEIGHT: normal
+}
+.wpProQuiz_questionListItem LABEL {
+	MARGIN: 0px; DISPLAY: inline; FONT-WEIGHT: normal
+}
+.wpProQuiz_questionListItem INPUT {
+	DISPLAY: inline !important; FLOAT: none !important
+}
+.wpProQuiz_resultsList {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.wpProQuiz_resultsList > LI {
+	BACKGROUND-IMAGE: none !important; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px !important
+}
+.wpProQuiz_lock {
+	BORDER-BOTTOM: #ffc3c3 1px dotted; BORDER-LEFT: #ffc3c3 1px dotted; BACKGROUND-COLOR: #fff7f7 !important; BORDER-TOP: #ffc3c3 1px dotted; BORDER-RIGHT: #ffc3c3 1px dotted
+}
+.wpProQuiz_prerequisite {
+	BORDER-BOTTOM: #ffc3c3 1px dotted; BORDER-LEFT: #ffc3c3 1px dotted; BACKGROUND-COLOR: #fff7f7 !important; BORDER-TOP: #ffc3c3 1px dotted; BORDER-RIGHT: #ffc3c3 1px dotted
+}
+.wpProQuiz_startOnlyRegisteredUser {
+	BORDER-BOTTOM: #ffc3c3 1px dotted; BORDER-LEFT: #ffc3c3 1px dotted; BACKGROUND-COLOR: #fff7f7 !important; BORDER-TOP: #ffc3c3 1px dotted; BORDER-RIGHT: #ffc3c3 1px dotted
+}
+.wpProQuiz_loadQuiz {
+	BORDER-BOTTOM: #ffc3c3 1px dotted; BORDER-LEFT: #ffc3c3 1px dotted; BACKGROUND-COLOR: #fff7f7 !important; BORDER-TOP: #ffc3c3 1px dotted; BORDER-RIGHT: #ffc3c3 1px dotted
+}
+.wpProQuiz_lock P {
+	MARGIN: 20px; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_prerequisite P {
+	MARGIN: 20px; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_startOnlyRegisteredUser P {
+	MARGIN: 20px; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_loadQuiz P {
+	MARGIN: 20px; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_toplistTable {
+	BORDER-BOTTOM: #c3d1a3 1px solid; BORDER-LEFT: #c3d1a3 1px solid; MARGIN: 0px; WIDTH: 100% !important; BORDER-COLLAPSE: collapse !important; BORDER-TOP: #c3d1a3 1px solid; BORDER-RIGHT: #c3d1a3 1px solid
+}
+.wpProQuiz_toplistTable CAPTION {
+	TEXT-ALIGN: right !important; PADDING-BOTTOM: 2px !important; MARGIN: 0px; CAPTION-SIDE: top !important; COLOR: gray !important; FONT-SIZE: 11px !important
+}
+.wpProQuiz_toplistTable THEAD TR {
+	PADDING-BOTTOM: 5px !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; BACKGROUND: #9bbb59; COLOR: white !important; FONT-WEIGHT: bold !important; PADDING-TOP: 5px !important
+}
+.wpProQuiz_toplistTable TBODY TD:first-child {
+	FONT-WEIGHT: bold !important
+}
+.wpProQuiz_toplistTable TD {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center !important; BORDER-LEFT: 0px; PADDING-BOTTOM: 5px !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 5px !important
+}
+.wpProQuiz_toplistTable TH {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center !important; BORDER-LEFT: 0px; PADDING-BOTTOM: 5px !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 5px !important
+}
+.wpProQuiz_toplistTable TH {
+	BACKGROUND: #9bbb59
+}
+.wpProQuiz_toplistTrOdd {
+	BACKGROUND-COLOR: #ebf1de !important
+}
+.wpProQuiz_addToplist {
+	BORDER-BOTTOM: #c3d1a3 1px solid; BORDER-LEFT: #c3d1a3 1px solid; PADDING-BOTTOM: 10px !important; BACKGROUND-COLOR: #f5faea !important; MARGIN-TOP: 10px !important; PADDING-LEFT: 10px !important; PADDING-RIGHT: 10px !important; BORDER-TOP: #c3d1a3 1px solid; BORDER-RIGHT: #c3d1a3 1px solid; PADDING-TOP: 10px !important
+}
+.wpProQuiz_addToplistMessage {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; PADDING-BOTTOM: 5px !important; BACKGROUND-COLOR: #fcffb3 !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; MARGIN-BOTTOM: 5px !important; COLOR: dimgray !important; BORDER-TOP: #a0a0a0 1px solid; FONT-WEIGHT: bold !important; BORDER-RIGHT: #a0a0a0 1px solid; PADDING-TOP: 5px !important; border-radius: 5px
+}
+.wpProQuiz_resultTable {
+	BORDER-BOTTOM: #c4c4c4 1px solid; BORDER-LEFT: #c4c4c4 1px solid; PADDING-BOTTOM: 15px !important; MARGIN: 15px auto; PADDING-LEFT: 15px !important; WIDTH: 400px !important; PADDING-RIGHT: 15px !important; BORDER-TOP: #c4c4c4 1px solid; FONT-WEIGHT: bold !important; BORDER-RIGHT: #c4c4c4 1px solid; PADDING-TOP: 15px !important
+}
+.wpProQuiz_resultTable TABLE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 0px; WIDTH: 100% !important; BORDER-COLLAPSE: collapse !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.wpProQuiz_resultName {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 10px !important; PADDING-LEFT: 0px !important; WIDTH: 100px !important; PADDING-RIGHT: 0px !important; BORDER-TOP: 0px; BORDER-RIGHT: #868686 1px solid; PADDING-TOP: 10px !important
+}
+.wpProQuiz_resultValue {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px !important
+}
+.wpProQuiz_resultValue DIV {
+	TEXT-ALIGN: right !important; ZOOM: 1 !important; DISPLAY: inline-block !important; HEIGHT: 18px !important; COLOR: black !important; VERTICAL-ALIGN: middle !important; MARGIN-RIGHT: 3px !important; box-shadow: 1px 1px 3px 1px #c4c4c4
+}
+.wpProQuiz_addBox LABEL {
+	DISPLAY: inline !important
+}
+.wpProQuiz_addBox INPUT[type='text'] {
+	MARGIN: 0px
+}
+.wpProQuiz_reviewQuestion {
+	BORDER-BOTTOM: #c3d1a3 1px solid; POSITION: relative; BORDER-LEFT: #c3d1a3 1px solid; BACKGROUND-COLOR: #f8faf5; MAX-HEIGHT: 100px; OVERFLOW: hidden; BORDER-TOP: #c3d1a3 1px solid; BORDER-RIGHT: #c3d1a3 1px solid
+}
+.wpProQuiz_box {
+	BORDER-BOTTOM: #c3d1a3 1px solid; BORDER-LEFT: #c3d1a3 1px solid; BACKGROUND-COLOR: #f8faf5; BORDER-TOP: #c3d1a3 1px solid; BORDER-RIGHT: #c3d1a3 1px solid
+}
+.wpProQuiz_checkPage H3 {
+	MARGIN: 10px 0px
+}
+.wpProQuiz_reviewQuestion OL {
+	BORDER-BOTTOM: 0px; POSITION: relative !important; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 5px !important; PADDING-RIGHT: 12px !important; ZOOM: 1 !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 5px !important
+}
+.wpProQuiz_checkPage OL {
+	BORDER-BOTTOM: 0px; POSITION: relative !important; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 5px !important; PADDING-RIGHT: 12px !important; ZOOM: 1 !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 5px !important
+}
+.wpProQuiz_reviewQuestion OL:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.wpProQuiz_reviewQuestionTarget {
+	BORDER-BOTTOM-COLOR: #7db1d3 !important; BORDER-TOP-COLOR: #7db1d3 !important; BORDER-RIGHT-COLOR: #7db1d3 !important; BORDER-LEFT-COLOR: #7db1d3 !important; FONT-WEIGHT: bold; box-shadow: 0 0 2px 1px #c4c4c4
+}
+.wpProQuiz_reviewQuestion LI {
+	BACKGROUND-IMAGE: none !important; BORDER-BOTTOM: #cfcfcf 1px solid; TEXT-ALIGN: center !important; BORDER-LEFT: #cfcfcf 1px solid; PADDING-BOTTOM: 5px !important; BACKGROUND-COLOR: white; LIST-STYLE-TYPE: none !important; MARGIN: 0px 5px 5px 0px; PADDING-LEFT: 0px !important; WIDTH: 30px !important; PADDING-RIGHT: 0px !important; FLOAT: left !important; BORDER-TOP: #cfcfcf 1px solid; CURSOR: pointer !important; BORDER-RIGHT: #cfcfcf 1px solid; PADDING-TOP: 5px !important
+}
+.wpProQuiz_checkPage LI {
+	BACKGROUND-IMAGE: none !important; BORDER-BOTTOM: #cfcfcf 1px solid; TEXT-ALIGN: center !important; BORDER-LEFT: #cfcfcf 1px solid; PADDING-BOTTOM: 5px !important; BACKGROUND-COLOR: white; LIST-STYLE-TYPE: none !important; MARGIN: 0px 5px 5px 0px; PADDING-LEFT: 0px !important; WIDTH: 30px !important; PADDING-RIGHT: 0px !important; FLOAT: left !important; BORDER-TOP: #cfcfcf 1px solid; CURSOR: pointer !important; BORDER-RIGHT: #cfcfcf 1px solid; PADDING-TOP: 5px !important
+}
+.wpProQuiz_reviewQuestion DIV {
+	BORDER-BOTTOM: 0px; POSITION: absolute; BORDER-LEFT: 0px; BACKGROUND-COLOR: #b8b8b8; WIDTH: 10px; HEIGHT: 20px; BORDER-TOP: 0px; TOP: 0px; CURSOR: move; RIGHT: 0px; BORDER-RIGHT: 0px; border-radius: 10px
+}
+.wpProQuiz_reviewLegend {
+	PADDING-BOTTOM: 5px !important; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; MARGIN-BOTTOM: 8px !important; PADDING-TOP: 5px !important
+}
+.wpProQuiz_reviewLegend OL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px !important
+}
+.wpProQuiz_reviewLegend LI {
+	BACKGROUND-IMAGE: none !important; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LIST-STYLE-TYPE: none !important; MARGIN: 0px; PADDING-RIGHT: 5px !important; FLOAT: left !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.wpProQuiz_reviewColor {
+	WIDTH: 10px !important; DISPLAY: inline-block !important; HEIGHT: 10px !important; MARGIN-RIGHT: 2px !important
+}
+.wpProQuiz_button2 {
+	BORDER-BOTTOM: #dadada 1px solid; FILTER: none !important; BORDER-LEFT: #dadada 1px solid; PADDING-BOTTOM: 3px !important; MARGIN: 0px; PADDING-LEFT: 5px !important; PADDING-RIGHT: 5px !important; BACKGROUND: whitesmoke; COLOR: #303030 !important; BORDER-TOP: #dadada 1px solid; FONT-WEIGHT: normal !important; BORDER-RIGHT: #dadada 1px solid; PADDING-TOP: 3px !important; border-radius: 4px; text-shadow: none; box-shadow: 1px 1px 1px #a7a7a7
+}
+.wpProQuiz_button2:hover {
+	BACKGROUND: #ebebeb
+}
+.wpProQuiz_reviewDiv {
+	MARGIN: 20px 0px
+}
+.wpProQuiz_header {
+	MARGIN: 0px
+}
+.wpProQuiz_catOverview {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 20px
+}
+.wpProQuiz_catOverview LI {
+	BORDER-BOTTOM: #aaa 1px dashed; POSITION: relative !important; PADDING-BOTTOM: 0px !important; LIST-STYLE-TYPE: none !important; MARGIN: 10px 0px 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; HEIGHT: 1.05em !important; CLEAR: left !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 0px !important
+}
+.wpProQuiz_catOverview SPAN {
+	POSITION: absolute !important; PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 3px !important; BACKGROUND: #fff; FLOAT: left !important; TEXT-DECORATION: none !important; PADDING-TOP: 0px !important
+}
+SPAN.wpProQuiz_catPercent {
+	PADDING-LEFT: 5px !important; COLOR: #000 !important; RIGHT: 0px !important; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_forms {
+	MARGIN: 20px 0px
+}
+.wpProQuiz_required {
+	COLOR: #f00 !important; FONT-WEIGHT: bold !important
+}
+.wpProQuiz_invalidate {
+	BORDER-BOTTOM: #ffcfcf 1px solid; BORDER-LEFT: #ffcfcf 1px solid; PADDING-BOTTOM: 4px !important; MARGIN: 4px 0px; PADDING-LEFT: 4px !important; PADDING-RIGHT: 4px !important; DISPLAY: none; BACKGROUND: #ffebe8; BORDER-TOP: #ffcfcf 1px solid; BORDER-RIGHT: #ffcfcf 1px solid; PADDING-TOP: 4px !important
+}
+.wpProQuiz_forms TABLE {
+	BORDER-SPACING: 2px !important; WIDTH: auto !important; BORDER-COLLAPSE: separate !important
+}
+.wpProQuiz_forms TD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 8px !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: top !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px !important
+}
+.wpProQuiz_forms INPUT {
+	MARGIN: 0px; DISPLAY: inline !important; FLOAT: none !important
+}
+.wpProQuiz_forms TEXTAREA {
+	MARGIN: 0px; DISPLAY: inline !important; FLOAT: none !important
+}
+.wpProQuiz_forms LABEL {
+	MARGIN: 0px; DISPLAY: inline !important; FLOAT: none !important
+}
+.wpProQuiz_forms SELECT {
+	MARGIN: 0px; DISPLAY: inline !important; FLOAT: none !important
+}
+.wpProQuiz_forms SELECT {
+	WIDTH: auto !important
+}

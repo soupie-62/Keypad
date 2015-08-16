@@ -1,0 +1,716 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0074)http://andreinc.net/2011/01/03/rpn-calculator-using-python-scala-and-java/ -->
+<HTML lang=en class=no-js><HEAD><TITLE>RPN Calculator (using Scala, python and Java) « andreINC</TITLE><LINK 
+rel=profile href="http://gmpg.org/xfn/11">
+<META charset=UTF-8>
+<META name=viewport content="width=device-width, initial-scale=1.0"><LINK 
+title="andreINC » Feed" rel=alternate type=application/rss+xml 
+href="http://andreinc.net/feed/"><LINK title="andreINC » Comments Feed" 
+rel=alternate type=application/rss+xml 
+href="http://andreinc.net/comments/feed/"><LINK 
+title="andreINC » RPN Calculator (using Scala, python and Java) Comments Feed" 
+rel=alternate type=application/rss+xml 
+href="http://andreinc.net/2011/01/03/rpn-calculator-using-python-scala-and-java/feed/"><LINK 
+id=ctsocial-styles-css rel=stylesheet type=text/css 
+href="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/ctsocial-styles.css" 
+media=all><LINK id=cptchStylesheet-css rel=stylesheet type=text/css 
+href="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/style_wp_before_3.8.css" 
+media=all><LINK id=cntctfrmStylesheet-css rel=stylesheet type=text/css 
+href="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/style.css" 
+media=all><LINK id=wpProQuiz_front_style-css rel=stylesheet type=text/css 
+href="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/wpProQuiz_front.min.css" 
+media=all><LINK id=tw-bootstrap-css rel=stylesheet type=text/css 
+href="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/bootstrap.min.css" 
+media=all><LINK id=the-bootstrap-css rel=stylesheet type=text/css 
+href="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/style.min.css" 
+media=all>
+<STYLE type=text/css>BODY > .container {
+	MARGIN-TOP: 68px
+}
+</STYLE>
+
+<SCRIPT type=text/javascript 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/jquery.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/jquery-migrate.min.js"></SCRIPT>
+<LINK title=RSD rel=EditURI type=application/rsd+xml 
+href="http://andreinc.net/xmlrpc.php?rsd"><LINK rel=wlwmanifest 
+type=application/wlwmanifest+xml 
+href="http://andreinc.net/wp-includes/wlwmanifest.xml"><LINK 
+title="Fraction reduction in Scala (first contact)" rel=prev 
+href="http://andreinc.net/2010/12/28/fraction-reduction-in-scala/"><LINK 
+title="Bytelandian gold coins" rel=next 
+href="http://andreinc.net/2011/02/01/bytelandian-gold-coins/">
+<META name=GENERATOR content="MSHTML 8.00.6001.23487"><LINK rel=canonical 
+href="http://andreinc.net/2011/01/03/rpn-calculator-using-python-scala-and-java/"><LINK 
+rel=shortlink href="http://andreinc.net/?p=551">
+<STYLE type=text/css></STYLE>
+
+<STYLE type=text/css></STYLE>
+<LINK rel=stylesheet type=text/css 
+href="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/wp-code-highlight.css" 
+media=screen>
+<STYLE type=text/css>#branding hgroup {
+	CLIP: rect(1px 1px 1px 1px); POSITION: absolute !important
+}
+</STYLE>
+
+<STYLE id=custom-background-css type=text/css>BODY.custom-background {
+	BACKGROUND-COLOR: #ffffff
+}
+</STYLE>
+<!--[if lt IE 9]>
+<SCRIPT type=text/javascript 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/html5shiv.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/respond.min.js"></SCRIPT>
+<![endif]--></HEAD>
+<BODY 
+class="single single-post postid-551 single-format-standard custom-background content-sidebar">
+<DIV class=container>
+<DIV id=page class="hfeed row"><HEADER id=branding class=span12 
+role=banner><HGROUP>
+<H1 id=site-title><A title=andreINC href="http://andreinc.net/" 
+rel=home><SPAN>andreINC</SPAN> </A></H1>
+<H2 id=site-description></H2></HGROUP><NAV id=access role=navigation>
+<H3 class=assistive-text>Main menu</H3>
+<DIV class=skip-link><A class=assistive-text title="Skip to primary content" 
+href="http://andreinc.net/2011/01/03/rpn-calculator-using-python-scala-and-java/#content">Skip 
+to primary content</A></DIV>
+<DIV class=skip-link><A class=assistive-text title="Skip to secondary content" 
+href="http://andreinc.net/2011/01/03/rpn-calculator-using-python-scala-and-java/#secondary">Skip 
+to secondary content</A></DIV>
+<DIV class="navbar navbar-fixed-top navbar-inverse">
+<DIV class=navbar-inner>
+<DIV class=container><!-- .btn-navbar is used as the toggle for collapsed navbar content --><A 
+class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse"><SPAN 
+class=icon-bar></SPAN><SPAN class=icon-bar></SPAN><SPAN 
+class=icon-bar></SPAN></A><SPAN class=brand>andreINC</SPAN> 
+<DIV class=nav-collapse>
+<DIV class=menu-navigation-container>
+<UL id=menu-navigation class=nav>
+  <LI id=menu-item-817 
+  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-817"><A 
+  href="http://andreinc.net/">Blog</A></LI>
+  <LI id=menu-item-815 
+  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-815"><A 
+  href="http://andreinc.net/about-me/">About</A></LI>
+  <LI id=menu-item-144 
+  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><A 
+  href="http://andreinc.net/curriculum-vitae/">CV</A></LI>
+  <LI id=menu-item-957 
+  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-957"><A 
+  href="http://andreinc.net/contact/">Contact</A></LI></UL></DIV>
+<FORM id=searchform class="navbar-search pull-right" method=get 
+action=http://andreinc.net/><LABEL class="assistive-text hidden" 
+for=s>Search</LABEL> <INPUT id=s class=search-query type=search name=s 
+placeholder="Search"> 
+</FORM></DIV></DIV></DIV></DIV></NAV><!-- #access --></HEADER><!-- #branding --><SECTION 
+id=primary class=span8>
+<DIV id=content role=main><ARTICLE id=post-551 
+class="post-551 post type-post status-publish format-standard hentry category-algorithms category-java-programming-languages category-programming-languages category-python-programming-languages category-scala-programming-languages tag-algorithm tag-code tag-expressions tag-java-2 tag-module tag-operand tag-operator tag-programming-praxis tag-python tag-rpn-calculator tag-scala tag-solution tag-sourc-code tag-stack tag-stack-based tag-token tag-tokenization"><HEADER 
+class=page-header>
+<H1 class=entry-title>RPN Calculator (using Scala, python and Java)</H1>
+<DIV class=entry-meta><SPAN class=sep>Posted on </SPAN><A title="10:39 pm" 
+href="http://andreinc.net/2011/01/03/rpn-calculator-using-python-scala-and-java/" 
+rel=bookmark><TIME class=entry-date pubdate 
+datetime="2011-01-03T22:39:37+00:00">January 3, 2011</TIME></A><SPAN 
+class=by-author> <SPAN class=sep>by </SPAN><SPAN class="author vcard"><A 
+class="url fn n" title="View all posts by Andrei Ciobanu" 
+href="http://andreinc.net/author/admin/" rel=author>Andrei 
+Ciobanu</A></SPAN></SPAN> <SPAN class=sep>| </SPAN><SPAN class=comments-link><A 
+title="Comment on RPN Calculator (using Scala, python and Java)" 
+href="http://andreinc.net/2011/01/03/rpn-calculator-using-python-scala-and-java/#comments"><STRONG>1</STRONG> 
+Reply</A> </SPAN></DIV><!-- .entry-meta --></HEADER><!-- .entry-header -->
+<DIV class="entry-content clearfix">
+<P><STRONG><SPAN style="TEXT-DECORATION: underline">1. Description<A 
+name=description></A></SPAN></STRONG></P>
+<P>One of the earliest <A href="http://programmingpraxis.com/" 
+target=_blank>Programming Praxis</A> challenges is called <A 
+href="http://programmingpraxis.com/2009/02/19/rpn-calculator/" target=_blank>RPN 
+Calculator</A> . Our task is to write a RPN module capable of evaluating simple 
+RPN expressions and return the right result . The exact requirment:</P>
+<BLOCKQUOTE>
+  <P>Implement an RPN calculator that takes an expression like&nbsp;<CODE>19 
+  2.14 + 4.5 2 4.3 / - *</CODE> which is usually expressed as&nbsp;<CODE>(19 + 
+  2.14) * (4.5 - 2 / 4.3)</CODE> and responds with 85.2974. The program should 
+  read expressions from standard input and print the top of the stack to 
+  standard output when a newline is encountered. The program should retain the 
+  state of the operand stack between expressions.</P>
+  <P style="TEXT-ALIGN: right"><EM>Programming Praxis</EM></P></BLOCKQUOTE>
+<P style="TEXT-ALIGN: left">The natural algorithm to resolve this exercise is 
+<EM>stack-based</EM> :</P>
+<TABLE border=0>
+  <TBODY>
+  <TR>
+    <TD>The first step is to tokenize the expression .If the expression is “19 
+      2.14 + 4.5 2 4.3 / – *” after the tokenization the resulting structure 
+      will be an array of operands and operators, for example an array of 
+      Strings {“19″, “2.14″, “+”, “4.5″, “2″, “4.3″, “/”, “-”, “*”} .</TD></TR>
+  <TR>
+    <TD>At the second step we iterate over the array of tokens .If the token:
+      <P></P>
+      <UL>
+        <LI>Is an operand (number, variable) – we push in onto the stack .</LI>
+        <LI>Is an operator (we apriopri know the operator takes <STRONG>N 
+        </STRONG>arguments), we pop <STRONG>N</STRONG> values from the stack, we 
+        evaluate the operator with those values as input parameters, we push the 
+        result back onto the stack .</LI></UL></TD></TR>
+  <TR>
+    <TD>If the RPN expression is valid, after we apply the previous steps, the 
+      stack would contain only one value, which is the result of the calculation 
+      .</TD></TR></TBODY></TABLE>
+<P><STRONG><SPAN style="TEXT-DECORATION: underline">2. Implementation<A 
+name=implementation></A></SPAN></STRONG></P>
+<P>I will implement the solutions for this challenge using three different 
+languages: <STRONG>Scala</STRONG>, <STRONG>python</STRONG> and 
+<STRONG>Java</STRONG> .</P>
+<P><STRONG><SPAN style="TEXT-DECORATION: underline">2.1 Scala Solution<A 
+name=scala-implementation></A></SPAN></STRONG><STRONG><SPAN 
+style="TEXT-DECORATION: underline"><BR></SPAN></STRONG></P>
+<DIV><PRE class="wp-code-highlight prettyprint">import scala.collection.mutable.Stack
+import scala.io.Source
+import java.lang.Double.parseDouble
+
+/**
+* RPN Calculator .
+*
+* @author Andrei Ciobanu
+* @date JAN 2, 2011
+**/
+
+object RPNCalc {
+	// Maps an operator to a function .
+	val ops = Map("+" -&gt; ((_:Double) + (_:Double)),
+				  "-" -&gt; (-(_:Double) + (_:Double)),
+				  "*" -&gt; ((_:Double) * (_:Double)),
+				  "/" -&gt; (1/(_:Double) * (_:Double)))
+
+	// Evaluate RPN expr (given as string of tokens)
+	def evalTokens(tokens: Array[String]) : Double = {
+		val stack = new Stack[Double]
+		tokens.foreach(tok =&gt; {
+			if (ops.contains(tok)) stack.push(ops(tok)(stack.pop, stack.pop))
+			else stack.push(parseDouble(tok))
+		})
+		stack.pop
+	}
+
+	// Main	function
+	def main(args: Array[String]) = {
+		// Read line by line from stdin + tokenize line + evaluates line
+		Source.fromInputStream(System.in).getLines.foreach(l =&gt;
+			printf("exp=%2.2fn", evalTokens(l.split(" "))))
+	}
+}
+</PRE></DIV>
+<DIV>And if we compile and run the above code:<SPAN id=more-551></SPAN></DIV>
+<DIV><PRE class="wp-code-highlight prettyprint">:~/Workspace/scala$ fsc RPNCalc.scala
+:~/Workspace/scala$ scala RPNCalc
+5 1 2 + 4 * 3 - +
+exp=14.00
+19 2.14 + 4.5 2 4.3 / - *
+exp=85.30
+</PRE></DIV>
+<P>And now some short explanations:</P>
+<TABLE border=0>
+  <TBODY>
+  <TR>
+    <TD><SPAN 
+      style="TEXT-DECORATION: underline"><STRONG>RPNCalc</STRONG></SPAN> is 
+      called a singleton object . I believe this is the official Scala 
+      “work-around” for defining static utilities functions . Anyways, pretty 
+      elegant for an work-around (being ironic) .</TD></TR>
+  <TR>
+    <TD><SPAN style="TEXT-DECORATION: underline"><STRONG>ops</STRONG></SPAN> 
+      is&nbsp;<EM>HashMap</EM>-<EM>like</EM> data-structure that maps a given 
+      string (in our case operators “+”, “-”, “*”, “/”) with an associated 
+      function literal . Thus we can use the map’s elements just like “normal” 
+      functions, for example: <STRONG>ops(“+”)(1, 3)</STRONG> evaluates to 
+      <STRONG>4</STRONG> .You may wonder what’s with the : ((_:Double) + 
+      (_:Double)) syntax . This is a concise way of saying ((a:Double, b:Double) 
+      =&gt; a + b), so the <STRONG><SPAN 
+      style="TEXT-DECORATION: underline">ops</SPAN> </STRONG>can anytime be 
+      rewritten as:
+      <P></P>
+      <DIV><PRE class="wp-code-highlight prettyprint">	val ops = Map("+" -&gt; ((a:Double, b:Double) =&gt; a + b),
+				  "-" -&gt; ((a:Double, b:Double) =&gt; b - a),
+				  "*" -&gt; ((a:Double, b:Double) =&gt; a * b),
+				  "/" -&gt; ((a:Double, b:Double) =&gt; b / a))
+</PRE></DIV></TD></TR>
+  <TR>
+    <TD><SPAN style="TEXT-DECORATION: underline">evalTokens(tokens: 
+      Array[String])</SPAN> works exactly as described in the algorithm 
+      presentation, the only notable thing about it, is that it uses the mutable 
+      version of a Stack data structure .</TD></TR>
+  <TR>
+    <TD>And in the main function:
+      <P></P>
+      <DIV><PRE class="wp-code-highlight prettyprint">Source.fromInputStream(System.in).getLines.foreach(l =&gt; function(l))
+</PRE></DIV>
+      <P>Is the same as saying:</P>
+      <DIV><PRE class="wp-code-highlight prettyprint">        Scanner sc = new Scanner(System.in);
+        while(sc.hasNext()){
+            function(sc.nextLine());
+        }
+</PRE></DIV>
+      <P>in Java (read line by line from standard input) 
+.</P></TD></TR></TBODY></TABLE>
+<P><STRONG><SPAN style="TEXT-DECORATION: underline">2.2 Python Solution<A 
+name=implementation-python></A></SPAN></STRONG></P>
+<P>At a first glimpse the <STRONG>python </STRONG>implementation looks very 
+similar to the <STRONG>Scala </STRONG>implementation . Still there are some 
+subtle differences, as <STRONG>python </STRONG>doesn’t have all the functional 
+characteristics, and the programming style is a little different .</P>
+<DIV><PRE class="wp-code-highlight prettyprint">#!/usr/bin/env python
+
+# author: Andrei Ciobanu
+# date: JAN 3, 2010
+
+import sys
+import re
+
+# dictionary &lt;operator&gt; - &lt;function&gt;
+OPS = {
+		'+' : (lambda x, y: x + y),
+		'-' : (lambda x, y: y - x),
+		'*' : (lambda x, y: x * y),
+		'/' : (lambda x, y: y / x)
+}
+
+def evalTokens(tokens):
+	''' Evaluate RPN expr (given as string of tokens) '''
+	stack = []
+	for token in tokens:
+		if token in OPS:
+			stack.append(OPS[token](stack.pop(), stack.pop()))
+		else:
+			stack.append(float(token))
+	return stack.pop()
+
+if __name__=="__main__":
+	while True:
+		# Read line by line from stdin + tokenize line + evaluates line
+		tokens = re.split(" *", sys.stdin.readline().strip())
+		print tokens
+		if not tokens:
+			break
+		sys.stdout.write("exp=%2.2fn" % evalTokens(tokens))
+</PRE></DIV>
+<P><STRONG><SPAN style="TEXT-DECORATION: underline">2.3 Java Solution<A 
+name=implementation-java></A></SPAN></STRONG></P>
+<P>This solution is probably the most verbose, as <STRONG>Java</STRONG> has the 
+more strict and primitive syntax, when compared to its counterparts .</P>
+<P>In this particular case I wanted to&nbsp;imitate the previous solutions: have 
+a map (dictionary) with operators and the corresponding anonymous functions . 
+Unfortunately <STRONG>Java </STRONG>doesn’t have support for such constructs 
+(lambda functions, clojures, etc.), so I had to somehow find a work-around .</P>
+<P>The first <STRONG>Java</STRONG> solution:</P>
+<DIV><PRE class="wp-code-highlight prettyprint">import java.util.HashMap;
+import java.util.Map;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class RPNCalc {
+
+	// Helper interface needed to immitate anonymous functions
+	public static interface Operation {
+		public Double eval(Double e1, Double e2);
+	}
+
+	public static Map&lt;String, Operation&gt; OPS = new HashMap&lt;String, Operation&gt;();
+
+	static {
+		OPS.put("+", new Operation(){ public Double eval(Double e1, Double e2){ return e1 + e2; }});
+		OPS.put("-", new Operation(){ public Double eval(Double e1, Double e2){ return e2 - e1; }});
+		OPS.put("*", new Operation(){ public Double eval(Double e1, Double e2){ return e1 * e2; }});
+		OPS.put("/", new Operation(){ public Double eval(Double e1, Double e2){ return e2 / e1; }});
+	};
+
+	// Evaluate RPN expr (given as array of tokens)
+	public static Double eval(String[] tokens) {
+		LinkedList&lt;Double&gt; stack = new LinkedList&lt;Double&gt;();
+		for(String token : tokens) {
+			if (OPS.containsKey(token)) {
+				stack.push(OPS.get(token).eval(stack.pop(), stack.pop()));
+			}
+			else {
+				stack.push(Double.parseDouble(token));
+			}
+		}
+		return stack.pop();
+	}
+
+	// Main	function
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNext()) {
+			String line = sc.nextLine();
+			System.out.println("exp=" + eval(line.split(" ")));
+		}
+	}
+}
+</PRE></DIV>
+<P>Ok, but having an inner interface + some anonymous classes is a little 
+overkill for our particular case . Maybe a more natural approach for 
+<STRONG>Java</STRONG> would be to use functions instead:</P>
+<DIV><PRE class="wp-code-highlight prettyprint">import java.util.HashMap;
+import java.util.Map;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class RPNCalc2 {
+
+	// List of supported operators
+	public static final String[] OPERATORS = { "+", "-", "*", "/" };
+
+	// Test if a token is operator
+	public static Boolean isOperator(String token) {
+		for(String op : OPERATORS) {
+			if(op.equals(token)) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	// Operation based on operator
+	public static Double operation(String op, Double e1, Double e2) {
+		if(op.equals("+")) {
+			return e1 + e2;
+		}
+		else if(op.equals("-")) {
+			return e2 - e1;
+		}
+		else if(op.equals("*")) {
+			return e1 * e2;
+		}
+		else if(op.equals("/")) {
+			return e2 / e1;
+		} else {
+			throw new IllegalArgumentException("Invalid operator.");
+		}
+	}
+
+	// Evaluate RPN expr (given as array of tokens)
+	public static Double eval(String[] tokens) {
+		LinkedList&lt;Double&gt; stack = new LinkedList&lt;Double&gt;();
+		for(String token : tokens) {
+			if (isOperator(token)) {
+				stack.push(operation(token, stack.pop(), stack.pop()));
+			}
+			else {
+				stack.push(Double.parseDouble(token));
+			}
+		}
+		return stack.pop();
+	}
+
+	// Main	function
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNext()) {
+			String line = sc.nextLine();
+			System.out.println("exp=" + eval(line.split(" ")));
+		}
+	}
+}
+</PRE></DIV>
+<P><STRONG>Conclusions:</STRONG></P>
+<P>Every language has its strength and weaknesses . <STRONG>Python</STRONG> is 
+easy to learn, to read, to write and more important is fun&nbsp;. 
+<STRONG>Java</STRONG> is verbose, but fast, and <STRONG>Scala, Scala</STRONG> is 
+something new .</P>
+<P>If you have any suggestions don’t hesitate to comment .</P>
+<P>You may find interesting the following article: <A 
+href="http://andreinc.net/2010/10/05/converting-infix-to-rpn-shunting-yard-algorithm/" 
+target=_blank>Shunting Yard Algorithm</A> (how to convert infix expressions to 
+Reverse Polish Notation).</P>
+<H2 id=related-posts-via-categories-title>Related Posts via Categories</H2>
+<UL id=related-posts-via-categories-list>
+  <LI><A title="Converting infix to RPN (shunting-yard algorithm)" 
+  href="http://andreinc.net/2010/10/05/converting-infix-to-rpn-shunting-yard-algorithm/">Converting 
+  infix to RPN (shunting-yard algorithm)</A></LI>
+  <LI><A title="Credit Card Validation (Python 3.x)" 
+  href="http://andreinc.net/2011/04/09/credit-card-validation/">Credit Card 
+  Validation (Python 3.x)</A></LI>
+  <LI><A title="Insertion Sort Algorithm" 
+  href="http://andreinc.net/2010/12/26/insertion-sort-algorithm/">Insertion Sort 
+  Algorithm</A></LI>
+  <LI><A title="Bottom-up Merge Sort (non-recursive)" 
+  href="http://andreinc.net/2010/12/26/bottom-up-merge-sort-non-recursive/">Bottom-up 
+  Merge Sort (non-recursive)</A></LI>
+  <LI><A title="The merge sort algorithm (implementation in Java)" 
+  href="http://andreinc.net/2010/12/22/the-merge-sort-algorithm-implementation-in-java/">The 
+  merge sort algorithm (implementation in Java)</A></LI>
+  <LI><A title="ROT13 (Caesar Cipher)" 
+  href="http://andreinc.net/2010/10/05/rot13/">ROT13 (Caesar Cipher)</A></LI>
+  <LI><A title="Generate random SQL inserts using pysert (v0.1)" 
+  href="http://andreinc.net/2011/08/21/generate-random-sql-inserts-using-pysert-v0-1/">Generate 
+  random SQL inserts using pysert (v0.1)</A></LI>
+  <LI><A title="Implementing a generic Priority Queue in C (using heaps)" 
+  href="http://andreinc.net/2011/06/01/implementing-a-generic-priority-queue-in-c/">Implementing 
+  a generic Priority Queue in C (using heaps)</A></LI>
+  <LI><A title="Bytelandian gold coins" 
+  href="http://andreinc.net/2011/02/01/bytelandian-gold-coins/">Bytelandian gold 
+  coins</A></LI>
+  <LI><A title="Fraction reduction in Scala (first contact)" 
+  href="http://andreinc.net/2010/12/28/fraction-reduction-in-scala/">Fraction 
+  reduction in Scala (first 
+contact)</A></LI></UL></DIV><!-- .entry-content --><FOOTER 
+class=entry-footer><SPAN class="cat-links block">Posted in <A 
+title="View all posts in Data Structures and Algorithms" 
+href="http://andreinc.net/category/algorithms/" rel="category tag">Data 
+Structures and Algorithms</A>, <A title="View all posts in Java" 
+href="http://andreinc.net/category/programming-languages/java-programming-languages/" 
+rel="category tag">Java</A>, <A title="View all posts in Programming Languages" 
+href="http://andreinc.net/category/programming-languages/" 
+rel="category tag">Programming Languages</A>, <A 
+title="View all posts in Python" 
+href="http://andreinc.net/category/programming-languages/python-programming-languages/" 
+rel="category tag">Python</A>, <A title="View all posts in Scala" 
+href="http://andreinc.net/category/programming-languages/scala-programming-languages/" 
+rel="category tag">Scala</A>.</SPAN><SPAN class="tag-links block">Tagged <A 
+href="http://andreinc.net/tag/algorithm/" rel=tag>algorithm</A>, <A 
+href="http://andreinc.net/tag/code/" rel=tag>code</A>, <A 
+href="http://andreinc.net/tag/expressions/" rel=tag>expressions</A>, <A 
+href="http://andreinc.net/tag/java-2/" rel=tag>java</A>, <A 
+href="http://andreinc.net/tag/module/" rel=tag>module</A>, <A 
+href="http://andreinc.net/tag/operand/" rel=tag>operand</A>, <A 
+href="http://andreinc.net/tag/operator/" rel=tag>operator</A>, <A 
+href="http://andreinc.net/tag/programming-praxis/" rel=tag>programming 
+praxis</A>, <A href="http://andreinc.net/tag/python/" rel=tag>python</A>, <A 
+href="http://andreinc.net/tag/rpn-calculator/" rel=tag>rpn calculator</A>, <A 
+href="http://andreinc.net/tag/scala/" rel=tag>scala</A>, <A 
+href="http://andreinc.net/tag/solution/" rel=tag>solution</A>, <A 
+href="http://andreinc.net/tag/sourc-code/" rel=tag>sourc code</A>, <A 
+href="http://andreinc.net/tag/stack/" rel=tag>stack</A>, <A 
+href="http://andreinc.net/tag/stack-based/" rel=tag>stack-based</A>, <A 
+href="http://andreinc.net/tag/token/" rel=tag>token</A>, <A 
+href="http://andreinc.net/tag/tokenization/" rel=tag>tokenization</A>.</SPAN> 
+</FOOTER><!-- .entry-footer --></ARTICLE><!-- #post-551 -->
+<DIV id=comments>
+<H2 id=comments-title>One thought on “<SPAN>RPN Calculator (using Scala, python 
+and Java)</SPAN>” </H2>
+<OL class="commentlist unstyled">
+  <LI id=li-comment-26 class="pingback even thread-even depth-1">
+  <P class=row><STRONG class="ping-label span1">Pingback:</STRONG> <SPAN 
+  class=span7><A class=url 
+  href="http://andreinc.net/2011/01/06/rpn-calculator-using-haskell/" 
+  rel="external nofollow">RPN Calculator (using Haskell) « 
+  andreINC.net</A></SPAN> </P></LI><!-- #comment-## --></OL><!-- .commentlist .unstyled --></DIV><!-- #comments -->
+<DIV id=respond class=comment-respond>
+<H3 id=reply-title class=comment-reply-title><LEGEND>Leave a reply</LEGEND> 
+<SMALL><A style="DISPLAY: none" id=cancel-comment-reply-link 
+href="http://andreinc.net/2011/01/03/rpn-calculator-using-python-scala-and-java/#respond" 
+rel=nofollow>Cancel reply</A></SMALL></H3>
+<FORM id=commentform class=comment-form method=post 
+action=http://andreinc.net/wp-comments-post.php>
+<DIV class=form-horizontal>
+<DIV class="comment-form-author control-group"><LABEL class=control-label 
+for=author>Name</LABEL> 
+<DIV class=controls><INPUT id=author aria-required=true size=30 type=text 
+name=author> 
+<P class=help-inline><SPAN class=required>required</SPAN></P></DIV></DIV>
+<DIV class="comment-form-email control-group"><LABEL class=control-label 
+for=email>Email</LABEL> 
+<DIV class=controls><INPUT id=email aria-required=true size=30 type=email 
+name=email> 
+<P class=help-inline><SPAN class=required>required</SPAN>, will not be 
+published</P></DIV></DIV>
+<DIV class="comment-form-url control-group"><LABEL class=control-label 
+for=url>Website</LABEL> 
+<DIV class=controls><INPUT id=url size=30 type=url name=url> </DIV></DIV>
+<P class=cptch_block><LABEL for=cptch_input>Are we human, or are we dancer<SPAN 
+class=required> </SPAN></LABEL><BR><INPUT value=trU= type=hidden 
+name=cptch_result> <INPUT value=1394242412 type=hidden name=cptch_time> <INPUT 
+value="Version: 2.4" type=hidden> <INPUT 
+style="WIDTH: 40px; DISPLAY: inline; MARGIN-BOTTOM: 0px; FONT-SIZE: 12px" 
+id=cptch_input aria-required=true maxLength=2 size=2 type=text name=cptch_number 
+required="required" autocomplete="off"> + nine = 10 </P>
+<DIV class="comment-form-comment control-group"><LABEL class=control-label 
+for=comment>Comment</LABEL>
+<DIV class=controls><TEXTAREA id=comment class=span7 aria-required=true rows=8 name=comment></TEXTAREA></DIV></DIV>
+<DIV class="form-allowed-tags control-group"><LABEL class=control-label>You may 
+use these <ABBR title="HyperText Markup Language">HTML</ABBR> tags and 
+attributes: </LABEL>
+<DIV class=controls><PRE>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt; </PRE></DIV></DIV>
+<DIV class=form-actions>
+<P class=form-submit><INPUT id=submit value="Post Comment" type=submit name=submit> 
+<INPUT id=comment_post_ID value=551 type=hidden name=comment_post_ID> <INPUT 
+id=comment_parent value=0 type=hidden name=comment_parent> </P>
+<P style="DISPLAY: none"><INPUT id=akismet_comment_nonce value=6e2cb7c416 
+type=hidden name=akismet_comment_nonce></P></DIV></DIV></FORM></DIV><!-- #respond --><NAV 
+id=nav-single class=pager>
+<H3 class=assistive-text>Post navigation</H3><SPAN class=next><A 
+href="http://andreinc.net/2011/02/01/bytelandian-gold-coins/" rel=next>Next Post 
+<SPAN class=meta-nav>→</SPAN></A></SPAN> <SPAN class=previous><A 
+href="http://andreinc.net/2010/12/28/fraction-reduction-in-scala/" 
+rel=prev><SPAN class=meta-nav>←</SPAN> Previous Post</A></SPAN> </NAV><!-- #nav-single --></DIV><!-- #content --></SECTION><!-- #primary --><SECTION 
+id=secondary class="widget-area span4" role=complementary><ASIDE id=categories-5 
+class="widget well widget_categories">
+<H2 class=widget-title>Categories</H2>
+<UL>
+  <LI class="cat-item cat-item-385"><A 
+  title="View all posts filed under Data Bases" 
+  href="http://andreinc.net/category/data-bases/">Data Bases</A> (1) 
+  <UL class=children>
+    <LI class="cat-item cat-item-387"><A 
+    title="View all posts filed under Maria DB" 
+    href="http://andreinc.net/category/data-bases/maria-db/">Maria DB</A> (1) 
+    </LI>
+    <LI class="cat-item cat-item-386"><A 
+    title="View all posts filed under MySQL" 
+    href="http://andreinc.net/category/data-bases/mysql/">MySQL</A> (1) 
+  </LI></UL></LI>
+  <LI class="cat-item cat-item-35"><A 
+  title="View all posts filed under Data Structures and Algorithms" 
+  href="http://andreinc.net/category/algorithms/">Data Structures and 
+  Algorithms</A> (13) </LI>
+  <LI class="cat-item cat-item-3"><A 
+  title="View all posts filed under Miscellaneous" 
+  href="http://andreinc.net/category/miscellaneous/">Miscellaneous</A> (2) 
+  <UL class=children>
+    <LI class="cat-item cat-item-358"><A 
+    title="View all posts filed under Career" 
+    href="http://andreinc.net/category/miscellaneous/career/">Career</A> (1) 
+    </LI>
+    <LI class="cat-item cat-item-357"><A 
+    title="View all posts filed under Quotes" 
+    href="http://andreinc.net/category/miscellaneous/quotes/">Quotes</A> (1) 
+    </LI></UL></LI>
+  <LI class="cat-item cat-item-4"><A 
+  title="View all posts filed under Personal Projects" 
+  href="http://andreinc.net/category/projects/">Personal Projects</A> (1) </LI>
+  <LI class="cat-item cat-item-29"><A 
+  title="View all posts filed under Programming Languages" 
+  href="http://andreinc.net/category/programming-languages/">Programming 
+  Languages</A> (36) 
+  <UL class=children>
+    <LI class="cat-item cat-item-37"><A title="View all posts filed under Bash" 
+    href="http://andreinc.net/category/programming-languages/bash/">Bash</A> (2) 
+    </LI>
+    <LI class="cat-item cat-item-38"><A title="View all posts filed under C" 
+    href="http://andreinc.net/category/programming-languages/c/">C</A> (7) </LI>
+    <LI class="cat-item cat-item-40"><A 
+    title="View all posts filed under Haskell" 
+    href="http://andreinc.net/category/programming-languages/haskell/">Haskell</A> 
+    (1) </LI>
+    <LI class="cat-item cat-item-310"><A title="View all posts filed under Java" 
+    href="http://andreinc.net/category/programming-languages/java-programming-languages/">Java</A> 
+    (16) 
+    <UL class=children>
+      <LI class="cat-item cat-item-379"><A 
+      title="View all posts filed under Maven" 
+      href="http://andreinc.net/category/programming-languages/java-programming-languages/maven/">Maven</A> 
+      (1) </LI>
+      <LI class="cat-item cat-item-392"><A 
+      title="View all posts filed under NIO" 
+      href="http://andreinc.net/category/programming-languages/java-programming-languages/nio/">NIO</A> 
+      (5) </LI>
+      <LI class="cat-item cat-item-360"><A 
+      title="View all posts filed under Swing" 
+      href="http://andreinc.net/category/programming-languages/java-programming-languages/swing-java-programming-languages/">Swing</A> 
+      (1) </LI></UL></LI>
+    <LI class="cat-item cat-item-347"><A 
+    title="View all posts filed under JavaScript/HTML" 
+    href="http://andreinc.net/category/programming-languages/javascripthtml/">JavaScript/HTML</A> 
+    (1) </LI>
+    <LI class="cat-item cat-item-44"><A 
+    title="View all posts filed under PL/SQL" 
+    href="http://andreinc.net/category/programming-languages/plsql/">PL/SQL</A> 
+    (1) </LI>
+    <LI class="cat-item cat-item-30"><A 
+    title="View all posts filed under Python" 
+    href="http://andreinc.net/category/programming-languages/python-programming-languages/">Python</A> 
+    (8) </LI>
+    <LI class="cat-item cat-item-31"><A title="View all posts filed under Scala" 
+    href="http://andreinc.net/category/programming-languages/scala-programming-languages/">Scala</A> 
+    (2) </LI>
+    <LI class="cat-item cat-item-384"><A title="View all posts filed under SQL" 
+    href="http://andreinc.net/category/programming-languages/sql-programming-languages/">SQL</A> 
+    (1) </LI></UL></LI>
+  <LI class="cat-item cat-item-382"><A 
+  title="View all posts filed under Software Tools" 
+  href="http://andreinc.net/category/software-tools/">Software Tools</A> (1) 
+  <UL class=children>
+    <LI class="cat-item cat-item-383"><A 
+    title="View all posts filed under Eclipse" 
+    href="http://andreinc.net/category/software-tools/eclipse-2/">Eclipse</A> 
+    (1) </LI></UL></LI>
+  <LI class="cat-item cat-item-1"><A 
+  title="View all posts filed under Uncategorized" 
+  href="http://andreinc.net/category/uncategorized/">Uncategorized</A> (2) 
+</LI></UL></ASIDE><ASIDE id=archives-4 class="widget well widget_archive">
+<H2 class=widget-title>Archives</H2><SELECT 
+onchange=document.location.href=this.options[this.selectedIndex].value; 
+name=archive-dropdown> <OPTION selected value="">Select Month</OPTION> <OPTION 
+  value=http://andreinc.net/2013/12/>December 2013 &nbsp;(5)</OPTION> <OPTION 
+  value=http://andreinc.net/2013/10/>October 2013 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2013/09/>September 2013 &nbsp;(2)</OPTION> <OPTION 
+  value=http://andreinc.net/2013/07/>July 2013 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2012/11/>November 2012 &nbsp;(2)</OPTION> <OPTION 
+  value=http://andreinc.net/2012/06/>June 2012 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2012/04/>April 2012 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2011/09/>September 2011 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2011/08/>August 2011 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2011/06/>June 2011 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2011/05/>May 2011 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2011/04/>April 2011 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2011/02/>February 2011 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2011/01/>January 2011 &nbsp;(1)</OPTION> <OPTION 
+  value=http://andreinc.net/2010/12/>December 2010 &nbsp;(9)</OPTION> <OPTION 
+  value=http://andreinc.net/2010/11/>November 2010 &nbsp;(2)</OPTION> <OPTION 
+  value=http://andreinc.net/2010/10/>October 2010 &nbsp;(4)</OPTION> <OPTION 
+  value=http://andreinc.net/2010/09/>September 2010 &nbsp;(2)</OPTION> <OPTION 
+  value=http://andreinc.net/2010/08/>August 2010 &nbsp;(1)</OPTION></SELECT> 
+</ASIDE></SECTION><!-- #secondary .widget-area --><!--WP Code Highlight_start-->
+<SCRIPT type=text/javascript>
+		window.onload = function(){prettyPrint();};
+	</SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/wp-code-highlight.js"></SCRIPT>
+<!--WP Code Highlight_end--><FOOTER id=colophon class=span12 role=contentinfo>
+<DIV id=page-footer class="well clearfix"><SPAN class="credits alignleft">© 2014 
+<A href="http://andreinc.net/">andreINC</A>, all rights reserved.</SPAN> 
+<DIV id=site-generator><A title="Semantic Personal Publishing Platform" 
+href="http://wordpress.org/" rel=generator target=_blank>Proudly powered by 
+WordPress</A> </DIV></DIV><!-- #page-footer .well .clearfix --></FOOTER><!-- #colophon --></DIV><!-- #page --></DIV><!-- .container --><!-- 169 queries. 0.382 seconds. --><!-- Infolinks START -->
+<SCRIPT type=text/javascript>
+		   var infolink_pid =0; var infolink_wsid = 0;
+		</SCRIPT>
+
+<SCRIPT type=text/javascript src=""></SCRIPT>
+
+<SCRIPT type=text/javascript>
+							jQuery(document).ready(function(){ 
+							jQuery('.description').before('<span><!--INFOLINKS_OFF--></span>');jQuery('.description').after('<span><!--INFOLINKS_ON--></span>');jQuery('#headerimg').before('<span><!--INFOLINKS_OFF--></span>');jQuery('#headerimg').after('<span><!--INFOLINKS_ON--></span>');jQuery('h1').before('<span><!--INFOLINKS_OFF--></span>');jQuery('h1').after('<span><!--INFOLINKS_ON--></span>');jQuery('h1').before('<span><!--INFOLINKS_OFF--></span>');jQuery('h1').after('<span><!--INFOLINKS_ON--></span>');	
+								});
+						</SCRIPT>
+<!-- Infolinks END --><!-- Start of StatCounter Code -->
+<SCRIPT type=text/javascript>
+	<!-- 
+		var sc_project=7153286; 
+		var sc_security="b3053c1d"; 
+		var sc_invisible=1;
+	//-->
+	</SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/counter_xhtml.js"></SCRIPT>
+<NOSCRIPT>
+<DIV class=statcounter><A title="web analytics" 
+href="http://statcounter.com/"><IMG class=statcounter alt="web analytics" 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/1.gif"></A></DIV></NOSCRIPT><!-- End of StatCounter Code -->
+<SCRIPT type=text/javascript 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/bootstrap.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/the-bootstrap.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="RPN%20Calculator%20(using%20python%20and%20Java)%20«%20andreINC_files/comment-reply.min.js"></SCRIPT>
+</BODY></HTML>

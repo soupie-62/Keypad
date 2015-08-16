@@ -1,0 +1,62 @@
+.MyCalc_Norm table { width: 100%; 	border-collapse: collapse;  }
+.MyCalc_Norm th {
+
+	border-left:  3px solid black;	border-right: 3px solid black;
+ 
+	border-top-left-radius: 12px; 
+	border-top-right-radius: 12px;
+	height: 40px;		font-size: 14pt;
+
+	font-weight:bold;		text-align:center;
+
+
+	background-color:#4F4F4F;	color:white;
+} 
+.MyCalc_Norm td {
+	border-left: 3px solid black;	border-right: 3px solid black;
+	border-bottom-left-radius: 12px; 
+	border-bottom-right-radius: 12px;
+	height: 20px;		font-size: 10pt;
+
+	text-align:center; 
+}
+
+.MyCalc_F th {
+
+	border-left:  3px solid black;	border-right: 3px solid black;
+ 
+	border-top-left-radius: 12px; 
+	border-top-right-radius: 12px;
+	height: 40px;		font-size: 14pt;
+
+	font-weight:bold;		text-align:center;
+
+	color:yellow;
+} 
+.MyCalc_G th {
+
+	border-left:  3px solid black;	border-right: 3px solid black;
+ 
+	border-top-left-radius: 12px; 
+	border-top-right-radius: 12px;
+	height: 40px;		font-size: 14pt;
+
+	font-weight:bold;		text-align:center;
+
+	color:#007FFF;
+} 
+.MyCalc_H th {
+
+	border-left:  3px solid black;	border-right: 3px solid black;
+ 
+	border-top-left-radius: 12px; 
+	border-top-right-radius: 12px;
+	height: 40px;		font-size: 14pt;
+
+	font-weight:bold;		text-align:center;
+
+	color:lime;
+} 
+
+
+
