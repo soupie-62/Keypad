@@ -1,4 +1,21 @@
-﻿Version 2B:
+﻿Version 2C:
+----------
+There are now 2 distinct layouts.
+#1:	49 Keys, 100mm x 50mm board.
+	10 x 5 buttons, with one "double-width" button on bottom row.
+	This board, when combined with a large LCD, would be in a typical
+	"clamshell" layout, similar to a laptop.
+
+#2:	47 Keys, 100mm x 60mm board.
+	2 rows, 4 buttons wide [8 total].
+	4 rows, 10 buttons wide, with one "double-width" button on bottom row [39 total].
+	This board has a "cutout" area, allowing a smaller LCD to be added to the top.
+	"Landscape" layout, similar to a HP 15C
+
+Version #2 is also being developed as an Android app, using the Nexus 7. 
+
+
+Version 2B:
 ----------
 49 keys, 120 mm x 55 mm board
 Improved button spacing, better mounting hole placement
