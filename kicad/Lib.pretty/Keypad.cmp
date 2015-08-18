@@ -1,0 +1,360 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 02/10/2013 17:04:50
+
+BeginCmp
+TimeStamp = /524A365E;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52496E08;
+Reference = SW1;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1024;
+Reference = SW2;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1044;
+Reference = SW3;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1043;
+Reference = SW4;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1063;
+Reference = SW5;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A105F;
+Reference = SW6;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1060;
+Reference = SW7;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1091;
+Reference = SW8;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1090;
+Reference = SW9;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A108C;
+Reference = SW10;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A108D;
+Reference = SW11;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1085;
+Reference = SW12;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1089;
+Reference = SW13;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1088;
+Reference = SW14;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10AF;
+Reference = SW15;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10AE;
+Reference = SW16;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10AA;
+Reference = SW17;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10AB;
+Reference = SW18;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10A3;
+Reference = SW19;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10A7;
+Reference = SW20;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10A6;
+Reference = SW21;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1096;
+Reference = SW22;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A1097;
+Reference = SW23;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A109B;
+Reference = SW24;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A109A;
+Reference = SW25;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10A2;
+Reference = SW26;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A109E;
+Reference = SW27;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A109F;
+Reference = SW28;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10CE;
+Reference = SW29;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10CF;
+Reference = SW30;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10D3;
+Reference = SW31;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10D2;
+Reference = SW32;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10DA;
+Reference = SW33;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10D6;
+Reference = SW34;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10D7;
+Reference = SW35;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10B2;
+Reference = SW36;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10B3;
+Reference = SW37;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10B7;
+Reference = SW38;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10B6;
+Reference = SW39;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10BE;
+Reference = SW40;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10BA;
+Reference = SW41;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10BB;
+Reference = SW42;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10CB;
+Reference = SW43;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10CA;
+Reference = SW44;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10C6;
+Reference = SW45;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10C7;
+Reference = SW46;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10BF;
+Reference = SW47;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10C3;
+Reference = SW48;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A10C2;
+Reference = SW49;
+ValeurCmp = MX;
+IdModule  = TACTILE_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /524A2BD9;
+Reference = U1;
+ValeurCmp = TCA8418;
+IdModule  = QFN24;
+EndCmp
+
+EndListe

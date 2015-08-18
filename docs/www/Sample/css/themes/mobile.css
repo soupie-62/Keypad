@@ -1,0 +1,63 @@
+/*
+ * Copyright (c) 2012, Intel Corporation. All rights reserved.
+ * File revision: 04 October 2012
+ * Please see http://software.intel.com/html5/license/samples 
+ * and the included README.md file for license terms and conditions.
+ */
+
+html, body, #calc {   font-family: 'Orbitron', 'Ubuntu', 'Shanti', sans-serif; }
+
+#calc {
+	background: -moz-linear-gradient( top, #585857 0%, #272727);
+	background: -webkit-gradient( linear, left top, left bottom, from(#585857), to(#272727));
+}
+
+.result{   color: white; /* #a85003; */
+}
+
+.display {
+	border: 1px solid #c3c9c7;   -moz-border-radius: 6px;
+	-webkit-border-radius: 6px;  border-radius:6px;
+	-moz-box-shadow:4px 4px 3px rgba(000,000,000,0.3), inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:4px 4px 3px rgba(000,000,000,0.3), inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:4px 4px 3px rgba(000,000,000,0.3),inset 0px 0px 2px rgba(255,255,255,1);
+    
+	border-radius:6px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(0%,#666666), 
+		color-stop(6%,#2c2c2c), color-stop(11%,#666666), color-stop(60%, grey), color-stop(94%,#666666), color-stop(100%,#131313)
+	); 
+	/* Chrome,Safari4+ */
+	background: -moz-linear-gradient(top, #4c4c4c 0%, #666666 0%, #2c2c2c 6%, #666666 11%, #grey 60%, #666666 94%, #131313 100%); 
+	/* FF3.6+ */
+	background: -webkit-linear-gradient(top, #4c4c4c 0%,#666666 0%,#2c2c2c 6%,#666666 11%,#grey 60%,#666666 94%,#131313 100%); 
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4c4c4c 0%,#666666 0%,#2c2c2c 6%,#666666 11%,#grey 60%,#666666 94%,#131313 100%); 
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4c4c4c 0%,#666666 0%,#2c2c2c 6%,#666666 11%,grey 60%,#666666 94%,#131313 100%); 
+	/* IE10+ */
+	background: linear-gradient(to bottom, #4c4c4c 0%,#666666 0%,#2c2c2c 6%,#666666 11%,#grey 60%,#666666 94%,#131313 100%); 
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); 
+	/* IE6-9 */
+}
+
+.btnMathText {    color: #1dd419;}
+.btnFnText, .btnThemeText {  color:#d79951;}
+.btnClrText {    color: #c56e6e;}
+.btnRetText {    color: #a8ea29;}
+.btnNumText{    color:white;}
+
+.button {
+	margin: 4px;
+
+	background: -moz-linear-gradient(top,#98978c 0%,#2e2e2e);
+	background: -webkit-gradient(linear, left top, left bottom, from(#98978c),to(#2e2e2e));
+	background: -ms-linear-gradient(top, #98978c, #2e2e2e);
+	-moz-border-radius: 6px;  -webkit-border-radius: 6px;
+	border-radius:6px;    border: 1px outset #000000;
+	-moz-box-shadow:2px 1px 4px 2px rgba(150,150,150,0.3),		/*inset 0px 0px 1px rgba(255,000,217,1);*/
+                    inset 2px 2px 3px 0 #3d3b3b;
+	-webkit-box-shadow:2px 1px 4px 2px rgba(150,150,150,0.3),  inset 2px 2px 3px 0 #3d3b3b;
+	box-shadow:2px 1px 5px 2px rgba(150,150,150,0.3),                inset 3px 3px 4px 0 #3d3b3b;
+	text-shadow:0px -1px 0px rgba(000,000,000,0.2),0px 1px 0px rgba(255,255,255,0.3);
+}

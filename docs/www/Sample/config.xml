@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.intel.rpn-calc"
+        versionCode="1" 
+        version   = "0.0.1">
+
+
+	<!-- versionCode is optional and Android only, see the Setting Application Version -->
+
+	<!-- section on this page http://developer.android.com/tools/publishing/versioning.html -->
+
+	<!-- for more information regarding the use and purpose of the versionCode attribute -->
+
+
+	<name>RPN-Calc</name>
+
+	<content src="index.html"/>
+
+	<icon src="icon.png"/>
+
+	<description>
+        RPN calculator with multiple screens and themes.
+    </description>
+
+
+	<author href="http://software.intel.com/html5">
+        Intel Corporation
+    </author>
+
+
+
+	<!-- leave out to get latest PhoneGap, otherwise specify a value -->
+
+	<!-- <preference name="phonegap-version" value="2.0.0" /> -->
+
+
+
+	<!-- options for Android platform -->
+
+	<preference name="orientation" value="portrait" />
+
+	<preference name="android-minSdkVersion" value="9" /> 
+
+	<!-- Android 2.3 -->
+	<!-- APIs used by this app (permission list presented to the user on install) -->
+
+	<!-- If you do not want any permissions assigned to your app, use the -->
+
+	<!-- following value="none" tag; your app will still require the INTERNET -->
+
+	<!-- permission, because PhoneGap requires this. -->
+
+	<preference name="permissions" value="none"/>
+
+	<!-- to enable individual API permissions use the following examples -->
+
+	<!-- 
+    <feature name="http://api.phonegap.com/1.0/battery"/>
+
+		<feature name="http://api.phonegap.com/1.0/camera"/>
+
+		<feature name="http://api.phonegap.com/1.0/contacts"/>
+		<feature name="http://api.phonegap.com/1.0/file"/>
+		<feature name="http://api.phonegap.com/1.0/geolocation"/>
+		<feature name="http://api.phonegap.com/1.0/media"/>
+		<feature name="http://api.phonegap.com/1.0/network"/>
+		<feature name="http://api.phonegap.com/1.0/notification"/>
+		<feature name="http://api.phonegap.com/1.0/device"/>
+
+	-->
+
+
+</widget>

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Keypad)(type KiCad)(uri C:\Users\Alan\Documents\GitHub\Keypad\kicad\Lib.pretty)(options "")(descr ""))
+)
